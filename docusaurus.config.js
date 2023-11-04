@@ -140,7 +140,7 @@ const config = {
         items: [
           {
             to: "docs",
-            label: "📘 使用说明",
+            label: "📘 使用指南",
             position: "left",
           },
           {
