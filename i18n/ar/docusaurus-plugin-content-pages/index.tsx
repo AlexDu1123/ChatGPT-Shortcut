@@ -56,7 +56,7 @@ const DESCRIPTION = translate({
 });
 const SLOGAN = translate({
   id: 'homepage.slogan',
-  message: "让生产力加倍的 AI 快捷指令",
+  message: "你的AI提示词仓库",
 });
 
 type UserState = {

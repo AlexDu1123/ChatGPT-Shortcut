@@ -56,7 +56,7 @@ const DESCRIPTION = translate({
 });
 const SLOGAN = translate({
   id: 'homepage.slogan',
-  message: "让生产力加倍的 AI 快捷指令",
+  message: "你的AI中文提示词仓库",
 });
 
 type UserState = {
@@ -153,7 +153,7 @@ function ShowcaseHeader() {
   return (
     <section className={styles.mobileMarginAdjust + " text--center"}>
       <Heading as='h1' className={styles.hideOnMobile}>
-        AI Short
+        AI Prompt Library
       </Heading>
       <p>{SLOGAN}</p>
       <UserStatus hideLinks={{ userCenter: true, myFavorite: false }} />
@@ -202,7 +202,7 @@ function ShowcaseFilters({ onToggleDescription }) {
       <div className={clsx("margin-bottom--sm", styles.filterCheckbox)}>
         <div>
           <Heading as='h2'>
-            <Translate id='showcase.filters.title'>Filters</Translate>
+            <Translate id='showcase.filters.title'>快速筛选</Translate>
           </Heading>
           <div className={styles.hideOnMobile}>
             <span>{siteCountPlural(filteredUsers.length)}</span>
@@ -492,7 +492,7 @@ function ShowcaseCards({ isDescription }) {
                 )}>
                 <Heading as='h2'>
                   <Translate id='showcase.favoritesList.title'>
-                    Favorites
+                    我的收藏
                   </Translate>
                 </Heading>
                 <FavoriteIcon svgClass={styles.svgIconFavorite} />
@@ -515,7 +515,7 @@ function ShowcaseCards({ isDescription }) {
           <div className='container margin-top--lg'>
             <Heading as='h2' className={styles.showcaseHeader}>
               <Translate id='showcase.usersList.allUsers'>
-                All prompts
+                提示词清单 All Prompts
               </Translate>
             </Heading>
             <ul className={clsx("clean-list", styles.showcaseList)}>

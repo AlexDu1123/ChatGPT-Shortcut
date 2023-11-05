@@ -132,7 +132,7 @@ const config = {
       ],
       navbar: {
         hideOnScroll: true,
-        title: "AI Short",
+        title: "ALEX大表哥",
         logo: {
           alt: "ChatGPT Shortcuts",
           src: "img/logo.svg",
@@ -140,14 +140,45 @@ const config = {
         items: [
           {
             to: "docs",
-            label: "📘 使用指南",
+            label: "📕 说明",
             position: "left",
           },
           {
             to: "/community-prompts",
-            label: "🏘️ 社区提示词",
+            label: "💡 社区",
             position: "left",
           },
+          
+          {
+            type: "dropdown",
+            label: "🏛️ 课程",
+            position: "left",
+            items: [
+              {
+                label: "PPT模拟人生100天",
+                href: "https://j.youzan.com/sH0kwA",
+              },
+              {
+                label: "Excel模拟人生100天",
+                href: "https://j.youzan.com/E6ZkwA",
+              },
+              {
+                label: "Word模拟人生21天",
+                href: "https://j.youzan.com/mUZkwA",
+              },
+              {
+                label: "FCPX剪辑公园21天",
+                href: "https://j.youzan.com/9sKkwA",
+              },
+            ],
+          },
+
+          {
+            href: "https://shop40767237.m.youzan.com/wscgoods/detail/3evkebb3ecvq57j?fromStore=true&banner_id=f.104645105~image_ad.3~0~Yfdrdc3N&reft=1697098439255_1699163147294&spm=salesmanpromotion.3266187786_f.104645105&sf=qq_sm",
+            label: "👨‍💻 AI工作坊第4期招募中",
+            position: "left",
+          },
+          /*
           {
             type: "dropdown",
             label: "🛠️ 应用工具",
@@ -184,7 +215,7 @@ const config = {
             label: "反馈建议",
             position: "left",
             items: [
-              {
+            {
                 label: "📝 提交反馈",
                 to: "/feedback",
               },
@@ -202,6 +233,7 @@ const config = {
               },
             ],
           },
+        
           { type: "localeDropdown", position: "right" },
           {
             href: "https://github.com/rockbenben/ChatGPT-Shortcut",
@@ -213,6 +245,7 @@ const config = {
             position: "right",
             className: "header-discord-link",
           },
+          */
         ],
       },
       footer: {
