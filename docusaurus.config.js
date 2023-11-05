@@ -17,7 +17,7 @@ const config = {
   favicon: "img/favicon.ico",
 
   // Set the production url of your site here
-  url: "https://www.aishort.top",
+  url: "https://www.aialex.cn",
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: "/",
@@ -178,6 +178,23 @@ const config = {
             label: "👨‍💻 AI工作坊第4期招募中",
             position: "left",
           },
+          { type: "localeDropdown", position: "right" },
+          {
+            href: "https://www.weibo.com/u/1794009892",
+            position: "right",
+            className: "header-weibo-link",
+          },
+          {
+            href: "https://www.aialex.cn/QR-code",
+            position: "right",
+            className: "header-weixin-link",
+          },
+          {
+            href: "https://www.xiaohongshu.com/user/profile/64644166000000002a0080a7?xhsshare=CopyLink&appuid=64644166000000002a0080a7&apptime=1699172469",
+            position: "right",
+            className: "header-xiaohongshu-link",
+          },
+
           /*
           {
             type: "dropdown",
@@ -250,7 +267,7 @@ const config = {
       },
       footer: {
         style: "dark",
-        copyright: `Copyright © ${new Date().getFullYear()} AiShort (ChatGPT Shortcut)`,
+        copyright: `Copyright © ${new Date().getFullYear()} AI Prompt Library`,
       },
       prism: {
         theme: prismThemes.github,

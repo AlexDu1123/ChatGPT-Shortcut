@@ -48,7 +48,7 @@ import styles from "@site/src/pages/styles.module.css";
 const TITLE = translate({
   id: 'homepage.title',
   message:
-    "AiShort(ChatGPT Shortcut)-简单易用的 AI 快捷指令表，让生产力倍增！",
+    "AI Prompt Library 建立你的专属AI中文提示仓库",
 });
 const DESCRIPTION = translate({
   id: 'homepage.description',
