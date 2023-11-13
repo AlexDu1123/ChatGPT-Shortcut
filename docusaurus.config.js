@@ -139,6 +139,11 @@ const config = {
         },
         items: [
           {
+            href: "https://www.alexdbg.com/",
+            label: "🌏 AI工具导航",
+            position: "left",
+          },
+          {
             to: "docs",
             label: "📕 说明",
             position: "left",
