@@ -149,11 +149,11 @@ const config = {
             position: "left",
           },
 
-          /*{
-            href: "https://nf.video/vWcbq",
+          {
+            href: "http://51.aifk.pw",
             label: "🕹️ 账号",
             position: "left",
-          },*/
+          },
           
           {
             type: "dropdown",
