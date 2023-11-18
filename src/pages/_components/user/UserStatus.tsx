@@ -160,7 +160,7 @@ const UserStatus = ({ hideLinks = { userCenter: false, myFavorite: false } }) =>
         <Link className='button button--secondary' onClick={() => setOpen(true)} style={{ marginRight: "10px" }}>
           <Translate id='button.login'>登录</Translate>
         </Link>
-        <Link className='button button--primary' to='https://www.weibo.com/u/1794009892'>
+        <Link className='button button--primary' to='https://www.xiaohongshu.com/explore/6548a7f8000000001f03d8dd'>
           <Translate id='showcase.header.button'>🙏 分享你的提示词</Translate>
         </Link>
         <Modal open={open} footer={null} onCancel={() => setOpen(false)}>
