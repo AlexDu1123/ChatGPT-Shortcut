@@ -24,10 +24,10 @@ AI Prompt Library 提供一份简洁易用的 AI 指令列表，即使不了解�
 
 将提示词复制到 AI 对话模型中即可使用，以下是常用模型链接：
 
-- ChatGPT：https://chat.openai.com/
-- Bard: https://bard.google.com/
-- Claude: https://claude.ai/chats>
-- 文心一言：https://yiyan.baidu.com/
+- ChatGPT：https://chat.openai.com
+- Bard: https://bard.google.com
+- Claude: https://claude.ai/chats
+- 文心一言：https://yiyan.baidu.com
 - 智谱清言：https://chatglm.cn/detail
 
 ## 特别感谢
