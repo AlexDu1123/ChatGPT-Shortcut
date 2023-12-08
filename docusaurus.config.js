@@ -186,7 +186,7 @@ const config = {
 
           {
             href: "https://shop40767237.m.youzan.com/wscgoods/detail/3evkebb3ecvq57j?fromStore=true&banner_id=f.104645105~image_ad.3~0~Yfdrdc3N&reft=1697098439255_1699163147294&spm=salesmanpromotion.3266187786_f.104645105&sf=qq_sm",
-            label: "👨‍💻 AI工作坊第4期招募中",
+            label: "👨‍💻 AI工作坊第6期招募中",
             position: "left",
           },
           { type: "localeDropdown", position: "right" },
