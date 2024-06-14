@@ -30,6 +30,37 @@ AI Prompt Library 提供一份简洁易用的 AI 指令列表，即使不了解�
 - 文心一言：https://yiyan.baidu.com
 - 智谱清言：https://chatglm.cn/detail
 
+### 国内
+- 讯飞星火大模型：https://xinghuo.xfyun.cn
+- 百度文心一言：https://yiyan.baidu.com
+- 阿里通义千问：https://tongyi.aliyun.com
+- 华为盘古大模型：https://pangu.huaweicloud.com/
+- 清华·智谱清言：https://chatglm.cn/
+- 复旦·大学MOSS：https://moss.fastnlp.top
+- 商汤：https://tongyi.aliyun.com
+- 360智脑：https://www.so.com/zt/invite.html
+- 抖音豆包（云雀大模型）：https://www.doubao.com
+- 中科院（紫东太初大模型）：https://xihe.mindspore.cn
+- 上海人工智能实验室（书生通用大模型）：https://intern-ai.org.cn
+- 网易子曰大模型：https://aicenter.youdao.com/
+- 序列猴子开放平台：https://openapi.moyin.com/
+- 孟子生成式大模型：https://www.langboat.com/portal/mengzi-gpt
+- 天工AI助手：https://tiangong.kunlun.com
+- ChatGLM智谱清言：https://chatglm.cn
+- 商量SenseChat：https://chat.sensetime.com
+- 百川大模型：https://www.baichuan-ai.com
+- MiniMax“abab模型”：https://api.minimax.chat/
+
+### 国外
+- OpenAI ChatGPT：https://chat.openai.com/
+- 微软必应AI：https://www.bing.com/new
+- Claude：https://www.anthropic.com/
+- Google Bard：https://bard.google.com/
+- Poe AI聊天：https://poe.com
+- Claude2(pdf速读)：https://claude.ai/chats
+- Character.AI：https://www.character.ai/
+- Neeva：https://neeva.com
+
 ## 特别感谢
 
 开源项目老师：[rockbenben](https://github.com/rockbenben/ChatGPT-Shortcut)

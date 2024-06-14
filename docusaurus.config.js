@@ -149,12 +149,6 @@ const config = {
             position: "left",
           },
           {
-            to: "/community-prompts",
-            label: "💡 社区",
-            position: "left",
-          },
-
-          {
             href: "http://51.aifk.pw",
             label: "🕹️ 账号",
             position: "left",

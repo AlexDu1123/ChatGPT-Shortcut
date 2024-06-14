@@ -24,6 +24,8 @@
     "@mdx-js/react": "^3.0.0",
     "@popperjs/core": "^2.11.6",
     "@waline/vercel": "^1.31.7",
+    "ajv": "^6.12.6",
+    "ajv-keywords": "^3.5.2",
     "antd": "^5.10.3",
     "axios": "^1.6.0",
     "clsx": "^1.2.1",
