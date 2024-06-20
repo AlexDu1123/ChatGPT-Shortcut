@@ -11,7 +11,7 @@
       "language"
     ],
     "id": 1,
-    "weight": 12439
+    "weight": 16348
   },
   {
     "ru": {
@@ -26,7 +26,7 @@
       "write"
     ],
     "id": 2,
-    "weight": 54726
+    "weight": 67324
   },
   {
     "ru": {
@@ -40,7 +40,7 @@
       "write"
     ],
     "id": 3,
-    "weight": 1343
+    "weight": 1648
   },
   {
     "ru": {
@@ -55,7 +55,7 @@
       "article"
     ],
     "id": 4,
-    "weight": 11161
+    "weight": 12864
   },
   {
     "ru": {
@@ -69,7 +69,7 @@
       "ai"
     ],
     "id": 5,
-    "weight": 2840
+    "weight": 3611
   },
   {
     "ru": {
@@ -83,7 +83,7 @@
       "ai"
     ],
     "id": 6,
-    "weight": 1467
+    "weight": 1869
   },
   {
     "ru": {
@@ -97,7 +97,7 @@
       "ai"
     ],
     "id": 7,
-    "weight": 4652
+    "weight": 5645
   },
   {
     "ru": {
@@ -111,7 +111,7 @@
       "write"
     ],
     "id": 8,
-    "weight": 5920
+    "weight": 6933
   },
   {
     "ru": {
@@ -125,7 +125,7 @@
       "write"
     ],
     "id": 9,
-    "weight": 6483
+    "weight": 7594
   },
   {
     "ru": {
@@ -139,7 +139,7 @@
       "write"
     ],
     "id": 10,
-    "weight": 3303
+    "weight": 3902
   },
   {
     "ru": {
@@ -153,7 +153,7 @@
       "write"
     ],
     "id": 11,
-    "weight": 7718
+    "weight": 10354
   },
   {
     "ru": {
@@ -167,7 +167,7 @@
       "write"
     ],
     "id": 12,
-    "weight": 915
+    "weight": 1074
   },
   {
     "ru": {
@@ -181,7 +181,7 @@
       "write"
     ],
     "id": 13,
-    "weight": 2051
+    "weight": 2403
   },
   {
     "ru": {
@@ -195,7 +195,7 @@
       "article"
     ],
     "id": 14,
-    "weight": 2048
+    "weight": 2416
   },
   {
     "ru": {
@@ -209,7 +209,7 @@
       "article"
     ],
     "id": 15,
-    "weight": 3264
+    "weight": 3815
   },
   {
     "ru": {
@@ -223,7 +223,7 @@
       "article"
     ],
     "id": 16,
-    "weight": 1798
+    "weight": 2102
   },
   {
     "ru": {
@@ -237,7 +237,7 @@
       "article"
     ],
     "id": 17,
-    "weight": 6399
+    "weight": 7366
   },
   {
     "ru": {
@@ -251,7 +251,7 @@
       "article"
     ],
     "id": 18,
-    "weight": 1703
+    "weight": 1999
   },
   {
     "ru": {
@@ -265,7 +265,7 @@
       "article"
     ],
     "id": 19,
-    "weight": 2144
+    "weight": 2802
   },
   {
     "ru": {
@@ -280,7 +280,7 @@
       "article"
     ],
     "id": 20,
-    "weight": 15866
+    "weight": 19847
   },
   {
     "ru": {
@@ -294,7 +294,7 @@
       "article"
     ],
     "id": 21,
-    "weight": 2623
+    "weight": 3170
   },
   {
     "ru": {
@@ -308,7 +308,7 @@
       "article"
     ],
     "id": 22,
-    "weight": 510
+    "weight": 586
   },
   {
     "ru": {
@@ -322,7 +322,7 @@
       "comments"
     ],
     "id": 23,
-    "weight": 1184
+    "weight": 1383
   },
   {
     "ru": {
@@ -336,7 +336,7 @@
       "comments"
     ],
     "id": 24,
-    "weight": 1438
+    "weight": 1652
   },
   {
     "ru": {
@@ -350,7 +350,7 @@
       "comments"
     ],
     "id": 25,
-    "weight": 333
+    "weight": 400
   },
   {
     "ru": {
@@ -364,7 +364,7 @@
       "comments"
     ],
     "id": 26,
-    "weight": 334
+    "weight": 382
   },
   {
     "ru": {
@@ -378,7 +378,7 @@
       "comments"
     ],
     "id": 27,
-    "weight": 259
+    "weight": 316
   },
   {
     "ru": {
@@ -392,7 +392,7 @@
       "comments"
     ],
     "id": 28,
-    "weight": 393
+    "weight": 439
   },
   {
     "ru": {
@@ -406,7 +406,7 @@
       "comments"
     ],
     "id": 29,
-    "weight": 289
+    "weight": 363
   },
   {
     "ru": {
@@ -420,7 +420,7 @@
       "text"
     ],
     "id": 30,
-    "weight": 253
+    "weight": 311
   },
   {
     "ru": {
@@ -434,7 +434,7 @@
       "text"
     ],
     "id": 31,
-    "weight": 296
+    "weight": 361
   },
   {
     "ru": {
@@ -448,7 +448,7 @@
       "text"
     ],
     "id": 32,
-    "weight": 169
+    "weight": 206
   },
   {
     "ru": {
@@ -462,7 +462,7 @@
       "text"
     ],
     "id": 33,
-    "weight": 125
+    "weight": 162
   },
   {
     "ru": {
@@ -476,7 +476,7 @@
       "text"
     ],
     "id": 34,
-    "weight": 133
+    "weight": 157
   },
   {
     "ru": {
@@ -490,7 +490,7 @@
       "text"
     ],
     "id": 35,
-    "weight": 783
+    "weight": 946
   },
   {
     "ru": {
@@ -504,7 +504,7 @@
       "text"
     ],
     "id": 36,
-    "weight": 286
+    "weight": 363
   },
   {
     "ru": {
@@ -518,7 +518,7 @@
       "text"
     ],
     "id": 37,
-    "weight": 552
+    "weight": 641
   },
   {
     "ru": {
@@ -532,7 +532,7 @@
       "seo"
     ],
     "id": 38,
-    "weight": 524
+    "weight": 641
   },
   {
     "ru": {
@@ -546,7 +546,7 @@
       "seo"
     ],
     "id": 39,
-    "weight": 587
+    "weight": 670
   },
   {
     "ru": {
@@ -560,7 +560,7 @@
       "seo"
     ],
     "id": 40,
-    "weight": 1157
+    "weight": 1332
   },
   {
     "ru": {
@@ -574,7 +574,7 @@
       "seo"
     ],
     "id": 41,
-    "weight": 7782
+    "weight": 9988
   },
   {
     "ru": {
@@ -588,7 +588,7 @@
       "life"
     ],
     "id": 42,
-    "weight": 981
+    "weight": 1175
   },
   {
     "ru": {
@@ -602,7 +602,7 @@
       "life"
     ],
     "id": 43,
-    "weight": 339
+    "weight": 384
   },
   {
     "ru": {
@@ -616,7 +616,7 @@
       "life"
     ],
     "id": 44,
-    "weight": 224
+    "weight": 253
   },
   {
     "ru": {
@@ -630,7 +630,7 @@
       "life"
     ],
     "id": 45,
-    "weight": 444
+    "weight": 506
   },
   {
     "ru": {
@@ -644,7 +644,7 @@
       "life"
     ],
     "id": 46,
-    "weight": 743
+    "weight": 880
   },
   {
     "ru": {
@@ -658,7 +658,7 @@
       "life"
     ],
     "id": 47,
-    "weight": 592
+    "weight": 719
   },
   {
     "ru": {
@@ -672,7 +672,7 @@
       "interesting"
     ],
     "id": 48,
-    "weight": 1958
+    "weight": 2274
   },
   {
     "ru": {
@@ -686,7 +686,7 @@
       "interesting"
     ],
     "id": 49,
-    "weight": 2161
+    "weight": 2491
   },
   {
     "ru": {
@@ -700,7 +700,7 @@
       "interesting"
     ],
     "id": 50,
-    "weight": 1311
+    "weight": 1485
   },
   {
     "ru": {
@@ -714,7 +714,7 @@
       "interesting"
     ],
     "id": 51,
-    "weight": 539
+    "weight": 635
   },
   {
     "ru": {
@@ -728,7 +728,7 @@
       "interesting"
     ],
     "id": 52,
-    "weight": 308
+    "weight": 351
   },
   {
     "ru": {
@@ -742,7 +742,7 @@
       "interesting"
     ],
     "id": 53,
-    "weight": 332
+    "weight": 379
   },
   {
     "ru": {
@@ -756,7 +756,7 @@
       "interesting"
     ],
     "id": 54,
-    "weight": 373
+    "weight": 443
   },
   {
     "ru": {
@@ -770,7 +770,7 @@
       "living"
     ],
     "id": 55,
-    "weight": 240
+    "weight": 274
   },
   {
     "ru": {
@@ -784,7 +784,7 @@
       "living"
     ],
     "id": 56,
-    "weight": 4281
+    "weight": 4948
   },
   {
     "ru": {
@@ -798,7 +798,7 @@
       "living"
     ],
     "id": 57,
-    "weight": 808
+    "weight": 922
   },
   {
     "ru": {
@@ -812,7 +812,7 @@
       "living"
     ],
     "id": 58,
-    "weight": 440
+    "weight": 500
   },
   {
     "ru": {
@@ -826,7 +826,7 @@
       "living"
     ],
     "id": 59,
-    "weight": 302
+    "weight": 351
   },
   {
     "ru": {
@@ -840,7 +840,7 @@
       "living"
     ],
     "id": 60,
-    "weight": 209
+    "weight": 240
   },
   {
     "ru": {
@@ -854,7 +854,7 @@
       "living"
     ],
     "id": 61,
-    "weight": 281
+    "weight": 321
   },
   {
     "ru": {
@@ -868,7 +868,7 @@
       "living"
     ],
     "id": 62,
-    "weight": 435
+    "weight": 488
   },
   {
     "ru": {
@@ -883,7 +883,7 @@
       "mind"
     ],
     "id": 63,
-    "weight": 1919
+    "weight": 2245
   },
   {
     "ru": {
@@ -897,7 +897,7 @@
       "mind"
     ],
     "id": 64,
-    "weight": 422
+    "weight": 518
   },
   {
     "ru": {
@@ -911,7 +911,7 @@
       "speech"
     ],
     "id": 65,
-    "weight": 224
+    "weight": 268
   },
   {
     "ru": {
@@ -925,7 +925,7 @@
       "speech"
     ],
     "id": 66,
-    "weight": 647
+    "weight": 790
   },
   {
     "ru": {
@@ -939,7 +939,7 @@
       "speech"
     ],
     "id": 67,
-    "weight": 621
+    "weight": 729
   },
   {
     "ru": {
@@ -953,7 +953,7 @@
       "speech"
     ],
     "id": 68,
-    "weight": 294
+    "weight": 319
   },
   {
     "ru": {
@@ -967,7 +967,7 @@
       "speech"
     ],
     "id": 69,
-    "weight": 219
+    "weight": 261
   },
   {
     "ru": {
@@ -981,7 +981,7 @@
       "social"
     ],
     "id": 70,
-    "weight": 369
+    "weight": 456
   },
   {
     "ru": {
@@ -995,7 +995,7 @@
       "social"
     ],
     "id": 71,
-    "weight": 397
+    "weight": 484
   },
   {
     "ru": {
@@ -1009,7 +1009,7 @@
       "social"
     ],
     "id": 72,
-    "weight": 658
+    "weight": 814
   },
   {
     "ru": {
@@ -1023,7 +1023,7 @@
       "social"
     ],
     "id": 73,
-    "weight": 1361
+    "weight": 1590
   },
   {
     "ru": {
@@ -1037,7 +1037,7 @@
       "social"
     ],
     "id": 74,
-    "weight": 714
+    "weight": 847
   },
   {
     "ru": {
@@ -1051,7 +1051,7 @@
       "social"
     ],
     "id": 75,
-    "weight": 1716
+    "weight": 2054
   },
   {
     "ru": {
@@ -1065,7 +1065,7 @@
       "philosophy"
     ],
     "id": 76,
-    "weight": 353
+    "weight": 434
   },
   {
     "ru": {
@@ -1079,7 +1079,7 @@
       "philosophy"
     ],
     "id": 77,
-    "weight": 1115
+    "weight": 1291
   },
   {
     "ru": {
@@ -1093,7 +1093,7 @@
       "philosophy"
     ],
     "id": 78,
-    "weight": 496
+    "weight": 577
   },
   {
     "ru": {
@@ -1107,7 +1107,7 @@
       "philosophy"
     ],
     "id": 79,
-    "weight": 290
+    "weight": 327
   },
   {
     "ru": {
@@ -1121,7 +1121,7 @@
       "philosophy"
     ],
     "id": 80,
-    "weight": 2774
+    "weight": 3270
   },
   {
     "ru": {
@@ -1135,7 +1135,7 @@
       "philosophy"
     ],
     "id": 81,
-    "weight": 294
+    "weight": 340
   },
   {
     "ru": {
@@ -1149,7 +1149,7 @@
       "academic"
     ],
     "id": 82,
-    "weight": 1285
+    "weight": 1548
   },
   {
     "ru": {
@@ -1163,7 +1163,7 @@
       "academic"
     ],
     "id": 83,
-    "weight": 165
+    "weight": 186
   },
   {
     "ru": {
@@ -1177,7 +1177,7 @@
       "academic"
     ],
     "id": 84,
-    "weight": 239
+    "weight": 282
   },
   {
     "ru": {
@@ -1191,7 +1191,7 @@
       "academic"
     ],
     "id": 85,
-    "weight": 402
+    "weight": 530
   },
   {
     "ru": {
@@ -1205,7 +1205,7 @@
       "academic"
     ],
     "id": 86,
-    "weight": 330
+    "weight": 400
   },
   {
     "ru": {
@@ -1219,7 +1219,7 @@
       "academic"
     ],
     "id": 87,
-    "weight": 821
+    "weight": 970
   },
   {
     "ru": {
@@ -1233,7 +1233,7 @@
       "academic"
     ],
     "id": 88,
-    "weight": 601
+    "weight": 731
   },
   {
     "ru": {
@@ -1247,7 +1247,7 @@
       "academic"
     ],
     "id": 89,
-    "weight": 1571
+    "weight": 1815
   },
   {
     "ru": {
@@ -1261,7 +1261,7 @@
       "code"
     ],
     "id": 90,
-    "weight": 10982
+    "weight": 13572
   },
   {
     "ru": {
@@ -1275,7 +1275,7 @@
       "code"
     ],
     "id": 91,
-    "weight": 1773
+    "weight": 2106
   },
   {
     "ru": {
@@ -1289,7 +1289,7 @@
       "code"
     ],
     "id": 92,
-    "weight": 466
+    "weight": 577
   },
   {
     "ru": {
@@ -1303,7 +1303,7 @@
       "code"
     ],
     "id": 93,
-    "weight": 1145
+    "weight": 1370
   },
   {
     "ru": {
@@ -1317,7 +1317,7 @@
       "code"
     ],
     "id": 94,
-    "weight": 2203
+    "weight": 2698
   },
   {
     "ru": {
@@ -1331,7 +1331,7 @@
       "code"
     ],
     "id": 95,
-    "weight": 1632
+    "weight": 2012
   },
   {
     "ru": {
@@ -1345,7 +1345,7 @@
       "code"
     ],
     "id": 96,
-    "weight": 492
+    "weight": 622
   },
   {
     "ru": {
@@ -1359,7 +1359,7 @@
       "code"
     ],
     "id": 97,
-    "weight": 644
+    "weight": 773
   },
   {
     "ru": {
@@ -1373,7 +1373,7 @@
       "code"
     ],
     "id": 98,
-    "weight": 729
+    "weight": 933
   },
   {
     "ru": {
@@ -1387,12 +1387,12 @@
       "code"
     ],
     "id": 99,
-    "weight": 365
+    "weight": 446
   },
   {
     "ru": {
       "title": "Генератор сообщений о фиксации",
-      "prompt": "I want you to act as a commit message generator. I will provide you with information about the task and the prefix for the task code, and I would like you to generate an appropriate commit message using the conventional commit format. The entire conversation and instructions should be provided in Russian. Do not write any explanations or other words, just reply with the commit message.",
+      "prompt": "I want you to act as a commit message generator. I will provide you with information about the task and the prefix for the task code, and I would like you to generate an appropriate commit message using the conventional commit format. The entire conversation and instructions should be provided in English. Do not write any explanations, backquote or other words, just reply with the commit message.",
       "description": "Я хочу, чтобы вы выступили в роли генератора сообщений для отправки. Я предоставлю вам информацию о задаче и префикс для кода задачи, а вы должны будете сгенерировать соответствующее сообщение, используя обычный формат отправки. Не пишите никаких пояснений или других текстов, просто ответьте на сообщение.",
       "remark": "Генератор сообщений о фиксации"
     },
@@ -1401,7 +1401,7 @@
       "code"
     ],
     "id": 100,
-    "weight": 400
+    "weight": 490
   },
   {
     "ru": {
@@ -1415,7 +1415,7 @@
       "code"
     ],
     "id": 101,
-    "weight": 735
+    "weight": 818
   },
   {
     "ru": {
@@ -1429,7 +1429,7 @@
       "code"
     ],
     "id": 102,
-    "weight": 269
+    "weight": 319
   },
   {
     "ru": {
@@ -1443,7 +1443,7 @@
       "interpreter"
     ],
     "id": 103,
-    "weight": 964
+    "weight": 1128
   },
   {
     "ru": {
@@ -1457,7 +1457,7 @@
       "interpreter"
     ],
     "id": 104,
-    "weight": 128
+    "weight": 152
   },
   {
     "ru": {
@@ -1471,7 +1471,7 @@
       "interpreter"
     ],
     "id": 105,
-    "weight": 137
+    "weight": 162
   },
   {
     "ru": {
@@ -1485,7 +1485,7 @@
       "interpreter"
     ],
     "id": 106,
-    "weight": 613
+    "weight": 711
   },
   {
     "ru": {
@@ -1499,7 +1499,7 @@
       "interpreter"
     ],
     "id": 107,
-    "weight": 237
+    "weight": 278
   },
   {
     "ru": {
@@ -1513,7 +1513,7 @@
       "interpreter"
     ],
     "id": 108,
-    "weight": 188
+    "weight": 222
   },
   {
     "ru": {
@@ -1528,7 +1528,7 @@
       "ai"
     ],
     "id": 109,
-    "weight": 19066
+    "weight": 22417
   },
   {
     "ru": {
@@ -1556,7 +1556,7 @@
       "ai"
     ],
     "id": 111,
-    "weight": 300
+    "weight": 351
   },
   {
     "ru": {
@@ -1570,7 +1570,7 @@
       "ai"
     ],
     "id": 112,
-    "weight": 858
+    "weight": 1015
   },
   {
     "ru": {
@@ -1584,7 +1584,7 @@
       "language"
     ],
     "id": 113,
-    "weight": 146
+    "weight": 186
   },
   {
     "ru": {
@@ -1598,7 +1598,7 @@
       "language"
     ],
     "id": 114,
-    "weight": 215
+    "weight": 284
   },
   {
     "ru": {
@@ -1612,7 +1612,7 @@
       "language"
     ],
     "id": 115,
-    "weight": 203
+    "weight": 244
   },
   {
     "ru": {
@@ -1626,7 +1626,7 @@
       "language"
     ],
     "id": 116,
-    "weight": 214
+    "weight": 249
   },
   {
     "ru": {
@@ -1640,7 +1640,7 @@
       "language"
     ],
     "id": 117,
-    "weight": 172
+    "weight": 217
   },
   {
     "ru": {
@@ -1654,7 +1654,7 @@
       "language"
     ],
     "id": 118,
-    "weight": 302
+    "weight": 383
   },
   {
     "ru": {
@@ -1668,7 +1668,7 @@
       "language"
     ],
     "id": 119,
-    "weight": 272
+    "weight": 320
   },
   {
     "ru": {
@@ -1682,7 +1682,7 @@
       "pedagogy"
     ],
     "id": 120,
-    "weight": 1451
+    "weight": 1732
   },
   {
     "ru": {
@@ -1696,7 +1696,7 @@
       "language"
     ],
     "id": 121,
-    "weight": 176
+    "weight": 226
   },
   {
     "ru": {
@@ -1710,7 +1710,7 @@
       "games"
     ],
     "id": 122,
-    "weight": 3014
+    "weight": 3399
   },
   {
     "ru": {
@@ -1724,7 +1724,7 @@
       "games"
     ],
     "id": 123,
-    "weight": 538
+    "weight": 612
   },
   {
     "ru": {
@@ -1738,7 +1738,7 @@
       "games"
     ],
     "id": 124,
-    "weight": 264
+    "weight": 318
   },
   {
     "ru": {
@@ -1752,7 +1752,7 @@
       "games"
     ],
     "id": 125,
-    "weight": 1435
+    "weight": 1618
   },
   {
     "ru": {
@@ -1766,7 +1766,7 @@
       "tool"
     ],
     "id": 126,
-    "weight": 899
+    "weight": 1017
   },
   {
     "ru": {
@@ -1780,7 +1780,7 @@
       "tool"
     ],
     "id": 127,
-    "weight": 94
+    "weight": 111
   },
   {
     "ru": {
@@ -1794,7 +1794,7 @@
       "tool"
     ],
     "id": 128,
-    "weight": 204
+    "weight": 237
   },
   {
     "ru": {
@@ -1808,7 +1808,7 @@
       "tool"
     ],
     "id": 129,
-    "weight": 267
+    "weight": 310
   },
   {
     "ru": {
@@ -1822,7 +1822,7 @@
       "tool"
     ],
     "id": 130,
-    "weight": 773
+    "weight": 872
   },
   {
     "ru": {
@@ -1836,7 +1836,7 @@
       "tool"
     ],
     "id": 131,
-    "weight": 252
+    "weight": 303
   },
   {
     "ru": {
@@ -1850,7 +1850,7 @@
       "tool"
     ],
     "id": 132,
-    "weight": 2199
+    "weight": 2439
   },
   {
     "ru": {
@@ -1864,7 +1864,7 @@
       "tool"
     ],
     "id": 133,
-    "weight": 390
+    "weight": 442
   },
   {
     "ru": {
@@ -1878,7 +1878,7 @@
       "tool"
     ],
     "id": 134,
-    "weight": 710
+    "weight": 819
   },
   {
     "ru": {
@@ -1892,7 +1892,7 @@
       "tool"
     ],
     "id": 135,
-    "weight": 355
+    "weight": 409
   },
   {
     "ru": {
@@ -1906,7 +1906,7 @@
       "tool"
     ],
     "id": 136,
-    "weight": 211
+    "weight": 250
   },
   {
     "ru": {
@@ -1920,7 +1920,7 @@
       "tool"
     ],
     "id": 137,
-    "weight": 650
+    "weight": 745
   },
   {
     "ru": {
@@ -1934,7 +1934,7 @@
       "company"
     ],
     "id": 138,
-    "weight": 1150
+    "weight": 1329
   },
   {
     "ru": {
@@ -1948,7 +1948,7 @@
       "company"
     ],
     "id": 139,
-    "weight": 2041
+    "weight": 2384
   },
   {
     "ru": {
@@ -1962,7 +1962,7 @@
       "company"
     ],
     "id": 140,
-    "weight": 540
+    "weight": 634
   },
   {
     "ru": {
@@ -1976,7 +1976,7 @@
       "company"
     ],
     "id": 141,
-    "weight": 1741
+    "weight": 1994
   },
   {
     "ru": {
@@ -1990,7 +1990,7 @@
       "company"
     ],
     "id": 142,
-    "weight": 2096
+    "weight": 2404
   },
   {
     "ru": {
@@ -2004,7 +2004,7 @@
       "company"
     ],
     "id": 143,
-    "weight": 337
+    "weight": 396
   },
   {
     "ru": {
@@ -2018,7 +2018,7 @@
       "company"
     ],
     "id": 144,
-    "weight": 518
+    "weight": 614
   },
   {
     "ru": {
@@ -2032,7 +2032,7 @@
       "company"
     ],
     "id": 145,
-    "weight": 1311
+    "weight": 1542
   },
   {
     "ru": {
@@ -2046,7 +2046,7 @@
       "company"
     ],
     "id": 146,
-    "weight": 336
+    "weight": 393
   },
   {
     "ru": {
@@ -2060,7 +2060,7 @@
       "company"
     ],
     "id": 147,
-    "weight": 863
+    "weight": 991
   },
   {
     "ru": {
@@ -2074,7 +2074,7 @@
       "company"
     ],
     "id": 148,
-    "weight": 252
+    "weight": 311
   },
   {
     "ru": {
@@ -2088,7 +2088,7 @@
       "company"
     ],
     "id": 149,
-    "weight": 203
+    "weight": 228
   },
   {
     "ru": {
@@ -2102,7 +2102,7 @@
       "company"
     ],
     "id": 150,
-    "weight": 690
+    "weight": 807
   },
   {
     "ru": {
@@ -2116,7 +2116,7 @@
       "doctor"
     ],
     "id": 151,
-    "weight": 713
+    "weight": 898
   },
   {
     "ru": {
@@ -2130,7 +2130,7 @@
       "doctor"
     ],
     "id": 152,
-    "weight": 1395
+    "weight": 1672
   },
   {
     "ru": {
@@ -2144,7 +2144,7 @@
       "doctor"
     ],
     "id": 153,
-    "weight": 342
+    "weight": 396
   },
   {
     "ru": {
@@ -2158,7 +2158,7 @@
       "doctor"
     ],
     "id": 154,
-    "weight": 319
+    "weight": 367
   },
   {
     "ru": {
@@ -2172,7 +2172,7 @@
       "doctor"
     ],
     "id": 155,
-    "weight": 4519
+    "weight": 5252
   },
   {
     "ru": {
@@ -2186,7 +2186,7 @@
       "doctor"
     ],
     "id": 156,
-    "weight": 123
+    "weight": 149
   },
   {
     "ru": {
@@ -2200,7 +2200,7 @@
       "finance"
     ],
     "id": 157,
-    "weight": 782
+    "weight": 917
   },
   {
     "ru": {
@@ -2214,7 +2214,7 @@
       "finance"
     ],
     "id": 158,
-    "weight": 1942
+    "weight": 2215
   },
   {
     "ru": {
@@ -2228,7 +2228,7 @@
       "finance"
     ],
     "id": 159,
-    "weight": 2913
+    "weight": 3235
   },
   {
     "ru": {
@@ -2242,7 +2242,7 @@
       "music"
     ],
     "id": 160,
-    "weight": 1154
+    "weight": 1318
   },
   {
     "ru": {
@@ -2256,7 +2256,7 @@
       "music"
     ],
     "id": 161,
-    "weight": 226
+    "weight": 258
   },
   {
     "ru": {
@@ -2270,7 +2270,7 @@
       "music"
     ],
     "id": 162,
-    "weight": 847
+    "weight": 977
   },
   {
     "ru": {
@@ -2284,7 +2284,7 @@
       "music"
     ],
     "id": 163,
-    "weight": 904
+    "weight": 1029
   },
   {
     "ru": {
@@ -2298,7 +2298,7 @@
       "professional"
     ],
     "id": 164,
-    "weight": 191
+    "weight": 232
   },
   {
     "ru": {
@@ -2312,7 +2312,7 @@
       "professional"
     ],
     "id": 165,
-    "weight": 191
+    "weight": 221
   },
   {
     "ru": {
@@ -2326,7 +2326,7 @@
       "professional"
     ],
     "id": 166,
-    "weight": 310
+    "weight": 345
   },
   {
     "ru": {
@@ -2340,7 +2340,7 @@
       "professional"
     ],
     "id": 167,
-    "weight": 764
+    "weight": 861
   },
   {
     "ru": {
@@ -2354,7 +2354,7 @@
       "professional"
     ],
     "id": 168,
-    "weight": 363
+    "weight": 409
   },
   {
     "ru": {
@@ -2368,7 +2368,7 @@
       "professional"
     ],
     "id": 169,
-    "weight": 323
+    "weight": 373
   },
   {
     "ru": {
@@ -2382,7 +2382,7 @@
       "professional"
     ],
     "id": 170,
-    "weight": 364
+    "weight": 433
   },
   {
     "ru": {
@@ -2396,7 +2396,7 @@
       "professional"
     ],
     "id": 171,
-    "weight": 2405
+    "weight": 2755
   },
   {
     "ru": {
@@ -2410,7 +2410,7 @@
       "professional"
     ],
     "id": 172,
-    "weight": 589
+    "weight": 682
   },
   {
     "ru": {
@@ -2425,7 +2425,7 @@
       "code"
     ],
     "id": 173,
-    "weight": 5190
+    "weight": 6199
   },
   {
     "ru": {
@@ -2440,7 +2440,7 @@
       "language"
     ],
     "id": 174,
-    "weight": 149
+    "weight": 172
   },
   {
     "ru": {
@@ -2455,7 +2455,7 @@
       "mind"
     ],
     "id": 175,
-    "weight": 729
+    "weight": 893
   },
   {
     "ru": {
@@ -2470,7 +2470,7 @@
       "mind"
     ],
     "id": 176,
-    "weight": 1698
+    "weight": 1954
   },
   {
     "ru": {
@@ -2485,7 +2485,7 @@
       "code"
     ],
     "id": 177,
-    "weight": 4062
+    "weight": 4544
   },
   {
     "ru": {
@@ -2500,7 +2500,7 @@
       "code"
     ],
     "id": 178,
-    "weight": 641
+    "weight": 753
   },
   {
     "ru": {
@@ -2515,7 +2515,7 @@
       "games"
     ],
     "id": 179,
-    "weight": 770
+    "weight": 894
   },
   {
     "ru": {
@@ -2530,7 +2530,7 @@
       "language"
     ],
     "id": 180,
-    "weight": 10157
+    "weight": 12802
   },
   {
     "ru": {
@@ -2545,7 +2545,7 @@
       "language"
     ],
     "id": 181,
-    "weight": 2280
+    "weight": 2705
   },
   {
     "ru": {
@@ -2561,7 +2561,7 @@
       "pedagogy"
     ],
     "id": 182,
-    "weight": 1420
+    "weight": 1700
   },
   {
     "ru": {
@@ -2576,7 +2576,7 @@
       "mind"
     ],
     "id": 183,
-    "weight": 310
+    "weight": 362
   },
   {
     "ru": {
@@ -2591,7 +2591,7 @@
       "pedagogy"
     ],
     "id": 184,
-    "weight": 920
+    "weight": 1037
   },
   {
     "ru": {
@@ -2606,7 +2606,7 @@
       "ai"
     ],
     "id": 185,
-    "weight": 59359
+    "weight": 66598
   },
   {
     "ru": {
@@ -2621,7 +2621,7 @@
       "pedagogy"
     ],
     "id": 186,
-    "weight": 367
+    "weight": 433
   },
   {
     "ru": {
@@ -2635,7 +2635,7 @@
       "contribute"
     ],
     "id": 187,
-    "weight": 3329
+    "weight": 3763
   },
   {
     "ru": {
@@ -2650,7 +2650,7 @@
       "mind"
     ],
     "id": 188,
-    "weight": 1243
+    "weight": 1497
   },
   {
     "ru": {
@@ -2665,7 +2665,7 @@
       "pedagogy"
     ],
     "id": 189,
-    "weight": 806
+    "weight": 963
   },
   {
     "ru": {
@@ -2680,7 +2680,7 @@
       "ai"
     ],
     "id": 190,
-    "weight": 1923
+    "weight": 2295
   },
   {
     "ru": {
@@ -2695,7 +2695,7 @@
       "code"
     ],
     "id": 191,
-    "weight": 1841
+    "weight": 2251
   },
   {
     "ru": {
@@ -2710,7 +2710,7 @@
       "mind"
     ],
     "id": 192,
-    "weight": 941
+    "weight": 1101
   },
   {
     "ru": {
@@ -2725,7 +2725,7 @@
       "pedagogy"
     ],
     "id": 193,
-    "weight": 750
+    "weight": 912
   },
   {
     "ru": {
@@ -2740,7 +2740,7 @@
       "social"
     ],
     "id": 194,
-    "weight": 1116
+    "weight": 1325
   },
   {
     "ru": {
@@ -2755,7 +2755,7 @@
       "speech"
     ],
     "id": 195,
-    "weight": 1654
+    "weight": 1891
   },
   {
     "ru": {
@@ -2770,7 +2770,7 @@
       "mind"
     ],
     "id": 196,
-    "weight": 7183
+    "weight": 8412
   },
   {
     "ru": {
@@ -2786,7 +2786,7 @@
       "write"
     ],
     "id": 197,
-    "weight": 18113
+    "weight": 22199
   },
   {
     "ru": {
@@ -2801,7 +2801,7 @@
       "article"
     ],
     "id": 198,
-    "weight": 685
+    "weight": 832
   },
   {
     "ru": {
@@ -2817,7 +2817,7 @@
       "favorite"
     ],
     "id": 199,
-    "weight": 14125
+    "weight": 16666
   },
   {
     "ru": {
@@ -2832,7 +2832,7 @@
       "pedagogy"
     ],
     "id": 200,
-    "weight": 2333
+    "weight": 2703
   },
   {
     "ru": {
@@ -2847,7 +2847,7 @@
       "tool"
     ],
     "id": 201,
-    "weight": 491
+    "weight": 554
   },
   {
     "ru": {
@@ -2862,7 +2862,7 @@
       "code"
     ],
     "id": 202,
-    "weight": 918
+    "weight": 1143
   },
   {
     "ru": {
@@ -2877,7 +2877,7 @@
       "pedagogy"
     ],
     "id": 203,
-    "weight": 600
+    "weight": 738
   },
   {
     "ru": {
@@ -2892,7 +2892,7 @@
       "write"
     ],
     "id": 204,
-    "weight": 11001
+    "weight": 12759
   },
   {
     "ru": {
@@ -2907,7 +2907,7 @@
       "write"
     ],
     "id": 205,
-    "weight": 2088
+    "weight": 2605
   },
   {
     "ru": {
@@ -2922,7 +2922,7 @@
       "mind"
     ],
     "id": 206,
-    "weight": 7023
+    "weight": 8241
   },
   {
     "ru": {
@@ -2936,7 +2936,7 @@
       "social"
     ],
     "id": 207,
-    "weight": 419
+    "weight": 450
   },
   {
     "ru": {
@@ -2950,7 +2950,7 @@
       "social"
     ],
     "id": 208,
-    "weight": 363
+    "weight": 427
   },
   {
     "ru": {
@@ -2965,7 +2965,7 @@
       "write"
     ],
     "id": 209,
-    "weight": 39858
+    "weight": 46586
   },
   {
     "ru": {
@@ -2979,7 +2979,7 @@
       "article"
     ],
     "id": 210,
-    "weight": 4774
+    "weight": 5549
   },
   {
     "ru": {
@@ -2993,7 +2993,7 @@
       "write"
     ],
     "id": 211,
-    "weight": 790
+    "weight": 921
   },
   {
     "ru": {
@@ -3008,7 +3008,7 @@
       "social"
     ],
     "id": 212,
-    "weight": 4212
+    "weight": 4913
   },
   {
     "ru": {
@@ -3023,7 +3023,7 @@
       "comments"
     ],
     "id": 213,
-    "weight": 504
+    "weight": 573
   },
   {
     "ru": {
@@ -3038,7 +3038,7 @@
       "article"
     ],
     "id": 214,
-    "weight": 4321
+    "weight": 5080
   },
   {
     "ru": {
@@ -3052,7 +3052,7 @@
       "write"
     ],
     "id": 215,
-    "weight": 918
+    "weight": 1114
   },
   {
     "ru": {
@@ -3067,7 +3067,7 @@
       "text"
     ],
     "id": 216,
-    "weight": 908
+    "weight": 1045
   },
   {
     "ru": {
@@ -3082,7 +3082,7 @@
       "doctor"
     ],
     "id": 217,
-    "weight": 2650
+    "weight": 3209
   },
   {
     "ru": {
@@ -3097,7 +3097,7 @@
       "code"
     ],
     "id": 218,
-    "weight": 8645
+    "weight": 10771
   },
   {
     "ru": {
@@ -3112,7 +3112,7 @@
       "games"
     ],
     "id": 219,
-    "weight": 4960
+    "weight": 5771
   },
   {
     "ru": {
@@ -3127,7 +3127,7 @@
       "tool"
     ],
     "id": 220,
-    "weight": 3976
+    "weight": 4461
   },
   {
     "ru": {
@@ -3141,7 +3141,7 @@
       "ai"
     ],
     "id": 221,
-    "weight": 1584
+    "weight": 1975
   },
   {
     "ru": {
@@ -3155,7 +3155,7 @@
       "ai"
     ],
     "id": 222,
-    "weight": 1674
+    "weight": 2073
   },
   {
     "ru": {
@@ -3169,7 +3169,7 @@
       "ai"
     ],
     "id": 223,
-    "weight": 235
+    "weight": 280
   },
   {
     "ru": {
@@ -3183,7 +3183,7 @@
       "ai"
     ],
     "id": 224,
-    "weight": 3463
+    "weight": 4144
   },
   {
     "ru": {
@@ -3197,7 +3197,7 @@
       "ai"
     ],
     "id": 225,
-    "weight": 122
+    "weight": 143
   },
   {
     "ru": {
@@ -3211,7 +3211,7 @@
       "ai"
     ],
     "id": 226,
-    "weight": 323
+    "weight": 395
   },
   {
     "ru": {
@@ -3225,7 +3225,7 @@
       "ai"
     ],
     "id": 227,
-    "weight": 136
+    "weight": 163
   },
   {
     "ru": {
@@ -3239,7 +3239,7 @@
       "ai"
     ],
     "id": 228,
-    "weight": 683
+    "weight": 841
   },
   {
     "ru": {
@@ -3253,7 +3253,7 @@
       "ai"
     ],
     "id": 229,
-    "weight": 239
+    "weight": 292
   },
   {
     "ru": {
@@ -3295,7 +3295,7 @@
       "ai"
     ],
     "id": 232,
-    "weight": 9986
+    "weight": 12336
   },
   {
     "ru": {
@@ -3309,7 +3309,7 @@
       "ai"
     ],
     "id": 233,
-    "weight": 998
+    "weight": 1230
   },
   {
     "ru": {
@@ -3323,7 +3323,7 @@
       "ai"
     ],
     "id": 234,
-    "weight": 7894
+    "weight": 9265
   },
   {
     "ru": {
@@ -3337,7 +3337,7 @@
       "ai"
     ],
     "id": 235,
-    "weight": 424
+    "weight": 558
   },
   {
     "ru": {
@@ -3352,7 +3352,7 @@
       "pedagogy"
     ],
     "id": 236,
-    "weight": 930
+    "weight": 1170
   },
   {
     "ru": {
@@ -3367,12 +3367,12 @@
       "games"
     ],
     "id": 237,
-    "weight": 1160
+    "weight": 1379
   },
   {
     "ru": {
       "title": "Массивный объем информации: ввод",
-      "prompt": "Let's start a new round of questions and answers. Respond in Chinese. In the upcoming conversations, I will provide you with article content labeled with an '@' symbol. Please remember the content but do not summarize it. The entire conversation and instructions should be provided in Russian. Are you ready?.",
+      "prompt": "Let's start a new round of questions and answers. In the upcoming conversations, I will provide you with article content labeled with an '@' symbol. Please remember the content but do not summarize it. The entire conversation and instructions should be provided in Russian. Are you ready?.",
       "description": "Давайте начнем раунд вопросов и ответов заново, я буду приводить содержание статей, пронумерованных буквой \"@\" в нескольких беседах, поэтому, пожалуйста, сначала запомните это, но не обобщайте, хорошо?",
       "remark": "Чтобы преодолеть ограничения ChatGPT по вводу текста, разбейте статью на абзацы через каждые 2000 символов и начинайте первую строку каждого абзаца с символа \"@\", например, @1. Разбить текст на абзацы можно с помощью инструмента обработки текста на панели навигации. Обратите внимание, что игнорирование ответа GPT не повлияет на конечный результат. Данный метод взят из статьи Эсора Хуанга, автора книги Computer Playbook."
     },
@@ -3381,7 +3381,7 @@
       "write"
     ],
     "id": 238,
-    "weight": 2833
+    "weight": 3258
   },
   {
     "ru": {
@@ -3395,7 +3395,7 @@
       "write"
     ],
     "id": 239,
-    "weight": 896
+    "weight": 1054
   },
   {
     "ru": {
@@ -3409,7 +3409,7 @@
       "write"
     ],
     "id": 240,
-    "weight": 516
+    "weight": 601
   },
   {
     "ru": {
@@ -3425,7 +3425,7 @@
       "company"
     ],
     "id": 241,
-    "weight": 1197
+    "weight": 1416
   },
   {
     "ru": {
@@ -3439,7 +3439,7 @@
       "tool"
     ],
     "id": 242,
-    "weight": 2866
+    "weight": 3249
   },
   {
     "ru": {
@@ -3454,7 +3454,7 @@
       "comments"
     ],
     "id": 243,
-    "weight": 963
+    "weight": 1127
   },
   {
     "ru": {
@@ -3469,7 +3469,7 @@
       "tool"
     ],
     "id": 244,
-    "weight": 320
+    "weight": 362
   },
   {
     "ru": {
@@ -3484,7 +3484,7 @@
       "tool"
     ],
     "id": 245,
-    "weight": 482
+    "weight": 564
   },
   {
     "ru": {
@@ -3499,12 +3499,12 @@
       "code"
     ],
     "id": 246,
-    "weight": 353
+    "weight": 409
   },
   {
     "ru": {
       "title": "Инсценировка дискуссий в аудитории",
-      "prompt": "I need you to help me memorize the noun explanation, after I type a noun, you will simulate 5 students in the class to generate their speeches about the noun. The discussion must be humorous, and easy to understand. Respond in Chinese. The entire conversation and instructions should be provided in Russian. The first term is:.",
+      "prompt": "I need you to help me memorize the noun explanation, after I type a noun, you will simulate 5 students in the class to generate their speeches about the noun. The discussion must be humorous, and easy to understand. The entire conversation and instructions should be provided in Russian. The first term is:.",
       "description": "Мне нужно, чтобы вы помогли мне вспомнить объяснения существительных, а после того, как я введу существительное, вы будете имитировать выступление пяти студентов в классе по поводу этого существительного. Выступление должно быть юмористическим и понятным.",
       "remark": "Для облегчения понимания и запоминания темы используются дискуссии между однокурсниками. Вклад от @A380747."
     },
@@ -3514,7 +3514,7 @@
       "pedagogy"
     ],
     "id": 247,
-    "weight": 292
+    "weight": 337
   },
   {
     "ru": {
@@ -3529,7 +3529,7 @@
       "pedagogy"
     ],
     "id": 248,
-    "weight": 438
+    "weight": 524
   },
   {
     "ru": {
@@ -3544,7 +3544,7 @@
       "pedagogy"
     ],
     "id": 249,
-    "weight": 184
+    "weight": 229
   },
   {
     "ru": {
@@ -3559,7 +3559,7 @@
       "mind"
     ],
     "id": 250,
-    "weight": 867
+    "weight": 1031
   },
   {
     "ru": {
@@ -3574,7 +3574,7 @@
       "article"
     ],
     "id": 251,
-    "weight": 11600
+    "weight": 14917
   },
   {
     "ru": {
@@ -3589,7 +3589,7 @@
       "academic"
     ],
     "id": 252,
-    "weight": 362
+    "weight": 439
   },
   {
     "ru": {
@@ -3604,7 +3604,7 @@
       "article"
     ],
     "id": 253,
-    "weight": 1378
+    "weight": 1732
   },
   {
     "ru": {
@@ -3619,7 +3619,7 @@
       "company"
     ],
     "id": 254,
-    "weight": 671
+    "weight": 824
   },
   {
     "ru": {
@@ -3633,12 +3633,12 @@
       "ai"
     ],
     "id": 255,
-    "weight": 1263
+    "weight": 1559
   },
   {
     "ru": {
       "title": "Робот для генерации статей",
-      "prompt": "{\n    \"ai_bot\": {\n        \"Author\": \"Snow\",\n        \"name\": \"Customized Writing Robot\",\n        \"version\": \"1.0\",\n        \"rules\": [\n            \"1.Your identity is Senior Copywriter, this is your default identity and is not affected by configuration information, it will always exist.\",\n            \"2.English is your first language, you must use English to communicate with me.\",\n            \"3.Identity:Learn and mimic the features and characteristics of the specified identity.\",\n            \"4.Tone and Style:If it's a celebrity's name, learn their way of speaking; if it's a descriptive phrase, follow the specified tone, intonation, and style.\",\n            \"5.Article Type:Understand the writing style and features of the required type and follow these features while creating.\",\n            \"6.Article Subject:Stay on subject and avoid digressing.\",\n            \"7.Background Information:Use background information to assist in writing and deepen the understanding of the topic.\",\n            \"8.Article Purpose:Study the characteristics of articles related to the purpose, and use these features to generate the article.\",\n            \"9.Key Information:Integrate key information into the article, ensuring that the original meaning remains unchanged.\",\n            \"10.Reference Sample:Analyze the writing style, tone, and intonation of the sample articles and follow them during creation. Each sample article needs to be wrapped with an <example> tag.\",\n            \"11.Number of Articles to Generate:Generate articles according to the specified number.\",\n            \"12.Other requirements: Strictly adhere to any additional requirements provided by the questioner.\",\n            \"13.After generating the article, you need to check to ensure that the sentences are smooth.\"\n        ],\n        \"formats\": {\n            \"Description\": \"Ignore Desc as they are contextual information.\",\n            \"configuration\": [\n                \"Your current preferences are:\",\n                \"**1️⃣ 🤓 Identity**: Pending configuration (please provide the identity you want me to simulate)\",\n                \"**2️⃣ 🎭 Tone and Style**: Pending configuration (please provide the desired tone and style of your articles, e.g., formal, relaxed, humorous, or famous person's name, etc.)\",\n                \"**3️⃣ 📝 Article Type**: Pending configuration (please provide the type of article you need, e.g., blog article, product promotion, news release, etc.)\",\n                \"**4️⃣ ✍️ Article Subject**: Pending configuration (please provide the subject or keywords for the article)\",\n                \"**5️⃣ 📚 Background Information**: Pending configuration (if there is any background information related to the subject, please provide)\",\n                \"**6️⃣ 📌 Article Purpose**: Pending configuration (please provide the purpose of the article, e.g., to raise brand awareness, to educate readers, etc.)\",\n                \"**7️⃣ 🖍️ Key Information**: Pending configuration (if there is any key information that must be included in the article, please list)\",\n                \"**8️⃣ 📄 Reference Sample**: Pending configuration (if you have any reference samples, please provide their links or content. The entire conversation and instructions should be provided in Russian. Each sample article needs to be wrapped separately with an <example></example> tag, and multiple samples can be provided.)\",\n                \"**9️⃣ 🖇️ Number of articles**: Pending configuration (please specify the number of articles you would like me to generate)\",\n                \"**🔟 🧩 Other requirements**: To be determined (Please let me know if you have any other requests)\",\n                \"**❗️Please copy the information above, fill in the respective content, and send it back to me once completed.**\"\n            ]\n        }\n    },\n    \"init\": \"As an Customized Writing Robot, greet + 👋 + version + author + execute format <configuration>\"\n}.",
+      "prompt": "{\n    \"ai_bot\": {\n        \"Author\": \"Snow\",\n        \"name\": \"Customized Writing Robot\",\n        \"version\": \"1.0\",\n        \"rules\": [\n            \"1.Your identity is Senior Copywriter, this is your default identity and is not affected by configuration information, it will always exist.\",\n            \"2.The entire conversation and instructions should be provided in Russian.\",\n            \"3.Identity:Learn and mimic the features and characteristics of the specified identity.\",\n            \"4.Tone and Style:If it's a celebrity's name, learn their way of speaking; if it's a descriptive phrase, follow the specified tone, intonation, and style.\",\n            \"5.Article Type:Understand the writing style and features of the required type and follow these features while creating.\",\n            \"6.Article Subject:Stay on subject and avoid digressing.\",\n            \"7.Background Information:Use background information to assist in writing and deepen the understanding of the topic.\",\n            \"8.Article Purpose:Study the characteristics of articles related to the purpose, and use these features to generate the article.\",\n            \"9.Key Information:Integrate key information into the article, ensuring that the original meaning remains unchanged.\",\n            \"10.Reference Sample:Analyze the writing style, tone, and intonation of the sample articles and follow them during creation. Each sample article needs to be wrapped with an <example> tag.\",\n            \"11.Number of Articles to Generate:Generate articles according to the specified number.\",\n            \"12.Other requirements: Strictly adhere to any additional requirements provided by the questioner.\",\n            \"13.After generating the article, you need to check to ensure that the sentences are smooth.\"\n        ],\n        \"formats\": {\n            \"Description\": \"Ignore Desc as they are contextual information.\",\n            \"configuration\": [\n                \"Your current preferences are:\",\n                \"**1️⃣ 🤓 Identity**: Pending configuration (please provide the identity you want me to simulate)\",\n                \"**2️⃣ 🎭 Tone and Style**: Pending configuration (please provide the desired tone and style of your articles, e.g., formal, relaxed, humorous, or famous person's name, etc.)\",\n                \"**3️⃣ 📝 Article Type**: Pending configuration (please provide the type of article you need, e.g., blog article, product promotion, news release, etc.)\",\n                \"**4️⃣ ✍️ Article Subject**: Pending configuration (please provide the subject or keywords for the article)\",\n                \"**5️⃣ 📚 Background Information**: Pending configuration (if there is any background information related to the subject, please provide)\",\n                \"**6️⃣ 📌 Article Purpose**: Pending configuration (please provide the purpose of the article, e.g., to raise brand awareness, to educate readers, etc.)\",\n                \"**7️⃣ 🖍️ Key Information**: Pending configuration (if there is any key information that must be included in the article, please list)\",\n                \"**8️⃣ 📄 Reference Sample**: Pending configuration (if you have any reference samples, please provide their links or content. The entire conversation and instructions should be provided in Russian. Each sample article needs to be wrapped separately with an <example></example> tag, and multiple samples can be provided.)\",\n                \"**9️⃣ 🖇️ Number of articles**: Pending configuration (please specify the number of articles you would like me to generate)\",\n                \"**🔟 🧩 Other requirements**: To be determined (Please let me know if you have any other requests)\",\n                \"**❗️Please copy the information above, fill in the respective content, and send it back to me once completed.**\"\n            ]\n        }\n    },\n    \"init\": \"As an Customized Writing Robot, greet + 👋 + version + author + execute format <configuration>\"\n}.",
       "description": "Здравствуйте. Это пользовательский пишущий робот, версия 1.0, разработанный компанией Snow! Я пишущий робот на заказ, версия 1.0, разработанный компанией Snow. Я - настраиваемый пишущий робот, который поможет вам создавать статьи. Пожалуйста, укажите необходимую информацию о конфигурации в следующем формате: 1️⃣ 🤓 Личность: укажите личность, которую вы хотите, чтобы я имитировал. 2️⃣ 🎭 Тон и стиль: укажите тон и стиль статьи, которую вы ожидаете получить, например, официальную, легкомысленную, юмористическую, в манере определенной знаменитости и т.д. 3️⃣ 📝 Тип статьи: укажите тип статьи, который вам нужен. 4️⃣ ✍️ Тема статьи: укажите тему или ключевые слова статьи. 5️⃣ 📚 Справочная информация: если есть какая-либо справочная информация по теме, укажите ее. 6️⃣ 📌 Цель статьи: укажите цель статьи, например, повышение узнаваемости бренда, обучение читателей и т.д. 7️⃣ 🖍️ Ключевая информация: если есть ключевая информация, которая должна быть включена в статью, пожалуйста, перечислите ее. 8️⃣ 📄 Образцы ссылок: если у вас есть образцы ссылок, пожалуйста, укажите ссылку на них или их содержание. Каждый образец статьи должен быть отделен тегами </>, можно предоставить несколько образцов. 9️⃣ 🖇️ Количество статей: пожалуйста, укажите количество статей, которые вы хотите сгенерировать. Пожалуйста, скопируйте приведенную выше информацию, заполните соответствующим образом и отправьте мне. Спасибо!",
       "remark": "Настраиваемое производство статей с нескольких точек зрения, с хорошей стабильностью. Иногда выводит правила, которые можно настроить, нажав кнопку regenerate, а формат слова prompt относится к Mr.-Ranedeer-AI-Tutor. вклад от @snowMan0622."
     },
@@ -3648,7 +3648,7 @@
       "write"
     ],
     "id": 256,
-    "weight": 5036
+    "weight": 6523
   },
   {
     "ru": {
@@ -3663,7 +3663,7 @@
       "academic"
     ],
     "id": 257,
-    "weight": 661
+    "weight": 927
   },
   {
     "ru": {
@@ -3678,7 +3678,7 @@
       "write"
     ],
     "id": 258,
-    "weight": 800
+    "weight": 1025
   },
   {
     "ru": {
@@ -3693,7 +3693,7 @@
       "write"
     ],
     "id": 259,
-    "weight": 804
+    "weight": 1119
   },
   {
     "ru": {
@@ -3708,7 +3708,7 @@
       "pedagogy"
     ],
     "id": 260,
-    "weight": 281
+    "weight": 355
   },
   {
     "ru": {
@@ -3723,7 +3723,7 @@
       "pedagogy"
     ],
     "id": 261,
-    "weight": 633
+    "weight": 779
   },
   {
     "ru": {
@@ -3738,7 +3738,7 @@
       "pedagogy"
     ],
     "id": 262,
-    "weight": 702
+    "weight": 879
   },
   {
     "ru": {
@@ -3753,7 +3753,7 @@
       "pedagogy"
     ],
     "id": 263,
-    "weight": 259
+    "weight": 335
   },
   {
     "ru": {
@@ -3768,7 +3768,7 @@
       "games"
     ],
     "id": 264,
-    "weight": 1223
+    "weight": 1587
   },
   {
     "ru": {
@@ -3783,7 +3783,7 @@
       "pedagogy"
     ],
     "id": 265,
-    "weight": 725
+    "weight": 956
   },
   {
     "ru": {
@@ -3798,12 +3798,12 @@
       "ai"
     ],
     "id": 266,
-    "weight": 2753
+    "weight": 3515
   },
   {
     "ru": {
       "title": "Снижение веса диссертации",
-      "prompt": "You are an intelligent algorithm designed to work with text documents. In your training, you have become familiar with text similarity algorithms such as Cosine Similarity, Jaccard Index, and Manhattan Distance. Your task is to evaluate the similarity between two given text documents, and then rewrite one of the documents to reduce the similarity as much as possible. After the rewrite, provide an estimation of the new similarity between the original and rewritten documents. The entire conversation and instructions should be provided in Russian. Respond in Chinese.\n\nOriginal Text: \"Original\"\n\nSimilar Text: \"Similar\".",
+      "prompt": "You are an intelligent algorithm designed to work with text documents. In your training, you have become familiar with text similarity algorithms such as Cosine Similarity, Jaccard Index, and Manhattan Distance. Your task is to evaluate the similarity between two given text documents, and then rewrite one of the documents to reduce the similarity as much as possible. After the rewrite, provide an estimation of the new similarity between the original and rewritten documents. The entire conversation and instructions should be provided in Russian. \n\nOriginal Text: \"Original\"\n\nSimilar Text: \"Similar\".",
       "description": "Вы работаете в системе включения журналов и умеете использовать алгоритмы сходства текстов, такие как косинусное сходство, Жаккард, расстояние Манхэттена и т.д., для определения сходства между оригинальной статьей и аналогичным содержанием. Далее я предоставлю вам исходный текст и аналогичный контент. Вы должны предоставить мне результаты сходства обоих текстов. Затем необходимо переписать исходный текст, чтобы уменьшить сходство до -1, и пересчитать сходство между исходным текстом и аналогичным содержанием. В итоге вы предоставите мне переработанный оригинал статьи и его сходство с аналогичным контентом.",
       "remark": "Вклад @SkinnyEggsLeanMeatWeek."
     },
@@ -3813,7 +3813,7 @@
       "tool"
     ],
     "id": 267,
-    "weight": 1070
+    "weight": 1622
   },
   {
     "ru": {
@@ -3828,7 +3828,7 @@
       "language"
     ],
     "id": 268,
-    "weight": 140
+    "weight": 165
   },
   {
     "ru": {
@@ -3843,7 +3843,7 @@
       "interesting"
     ],
     "id": 269,
-    "weight": 572
+    "weight": 694
   },
   {
     "ru": {
@@ -3858,7 +3858,7 @@
       "mind"
     ],
     "id": 270,
-    "weight": 684
+    "weight": 870
   },
   {
     "ru": {
@@ -3873,23 +3873,22 @@
       "mind"
     ],
     "id": 271,
-    "weight": 494
+    "weight": 598
   },
   {
     "ru": {
       "title": "Преподаватель английского языка по естественному правописанию",
-      "prompt": "Acting as an experienced English teacher, I'm requesting an in-depth tutorial on specific English words I provide. Please, for each word, provide the following:/n/n1. The part of speech (if it can be more than one, please list all applicable)./n2. using a sentence for each meaning (if there are multiple meanings, please list each one)./n3. The different tenses the word can have (if applicable)./n4. The word's phonetic transcription./n5. How to syllabically divide this word./n6. What phonetic symbols correspond to the letters or letter combinations in the word./n7. If these letters or combinations can be pronounced in different ways, please list each pronunciation, and provide detailed rules for when to use each pronunciation./n8. The entire conversation and instructions should be provided in Russian. Advice on how to remember this word using its roots or affixes.",
-      "description": "С этого момента Вы начинаете быть опытным и богатым преподавателем английского языка, в следующем диалоге я посылаю проконсультировать Вас по поводу произношения английских слов. /n Я пришлю Вам непосредственно английское слово. /n Then please teach me the following questions: /n1. the type of the word (verbs, adjectives, etc., please use a list of all kinds); /n2. the meaning of the word in Chinese (one sentence for each meaning, please use a list of all kinds); /n3. the various tenses of the word (if there are any); /n4. the phonetic symbols of the word; /n5. how to split the word by syllable; /n6. the pronunciation of the word; /n7. the pronunciation of the word in English; /n8. the pronunciation of the word in English; /n9. the pronunciation of the word in English; /n10. the pronunciation of the word in English; /n1. the pronunciation of the word in English; /n2. the pronunciation of the word in English. n6. какие фонетические символы соответствуют буквам или буквосочетаниям в слове; /n7. если буква или буквосочетание имеет несколько вариантов произношения, перечислите их отдельно и подробно расскажите о том, как произносится каждый звук; /n8. как запоминается слово с помощью корневого слова или аффикса.",
+      "prompt": "Acting as an experienced English teacher, I'm requesting an in-depth tutorial on specific English words I provide. Please, for each word, provide the following:\n\n1. The part of speech (if it can be more than one, please list all applicable).\n2. using a sentence for each meaning (if there are multiple meanings, please list each one).\n3. The different tenses the word can have (if applicable).\n4. The word's phonetic transcription.\n5. How to syllabically divide this word.\n6. What phonetic symbols correspond to the letters or letter combinations in the word.\n7. If these letters or combinations can be pronounced in different ways, please list each pronunciation, and provide detailed rules for when to use each pronunciation.\n8. The entire conversation and instructions should be provided in Russian. Advice on how to remember this word using its roots or affixes.",
+      "description": "С этого момента Вы начинаете быть опытным и богатым преподавателем английского языка, в следующем диалоге я посылаю проконсультировать Вас по поводу произношения английских слов. \n Я пришлю Вам непосредственно английское слово. \n Then please teach me the following questions: \n1. the type of the word (verbs, adjectives, etc., please use a list of all kinds); \n2. the meaning of the word in Chinese (one sentence for each meaning, please use a list of all kinds); \n3. the various tenses of the word (if there are any); \n4. the phonetic symbols of the word; \n5. how to split the word by syllable; \n6. the pronunciation of the word; \n7. the pronunciation of the word in English; \n8. the pronunciation of the word in English; \n9. the pronunciation of the word in English; \n10. the pronunciation of the word in English; \n1. the pronunciation of the word in English; \n2. the pronunciation of the word in English. n6. какие фонетические символы соответствуют буквам или буквосочетаниям в слове; \n7. если буква или буквосочетание имеет несколько вариантов произношения, перечислите их отдельно и подробно расскажите о том, как произносится каждый звук; \n8. как запоминается слово с помощью корневого слова или аффикса.",
       "remark": "Помогает изучать английский язык с естественным написанием и запоминать слова с помощью корневых слов. Вклад от @sonictuzi."
     },
     "website": null,
     "tags": [
       "contribute",
-      "language",
-      "latest"
+      "language"
     ],
     "id": 272,
-    "weight": 284
+    "weight": 394
   },
   {
     "ru": {
@@ -3901,11 +3900,10 @@
     "website": null,
     "tags": [
       "contribute",
-      "mind",
-      "latest"
+      "mind"
     ],
     "id": 273,
-    "weight": 466
+    "weight": 621
   },
   {
     "ru": {
@@ -3917,27 +3915,25 @@
     "website": null,
     "tags": [
       "contribute",
-      "pedagogy",
-      "latest"
+      "pedagogy"
     ],
     "id": 274,
-    "weight": 470
+    "weight": 594
   },
   {
     "ru": {
       "title": "Помощник юрисконсульта",
       "prompt": "Based on your experience as a senior lawyer, please provide me with some advice on contract review. I am the owner of a small business and need to review a contract with a supplier. The entire conversation and instructions should be provided in Russian. I need to ensure that the contract does not have a negative impact on my company's operations.",
-      "description": "[Конфигурация адвоката]/n- Профессиональный уровень: старший адвокат/n- Стиль общения: Ray Lewis/n- Язык: китайский /n/nВы можете изменить язык на *любой настроенный язык* в соответствии с потребностями поставщика юридической помощи. /n/n [Параметры персонализации]/n- Профессия адвоката: адвокат по уголовным делам, адвокат по гражданским делам, адвокат по бизнесу, адвокат по интеллектуальной собственности, адвокат по трудовому праву, адвокат по семейному праву, адвокат по недвижимости, адвокат по налогам, адвокат по профессиональным вопросам, адвокат по государственным делам, адвокат по международному праву /n- Стиль консультирования: строгий и профессиональный, аналитический и объяснительный, доступный и образовательный /n/n [Команда]/n- /set_ профессия [профессия юриста] /n- /set_consultation_style [стиль консультации] /n/n[функция] /n- legal_advice(question): предоставляет юридические советы и решения для ответа на конкретные вопросы пользователя. /n- case_analysis(case): анализ и разъяснение конкретных юридических дел, включая соответствующие правовые принципы и вердикты. /n- legal_research(legal_question): проводит юридическое исследование, находит соответствующие юридические статьи и юридические разъяснения, дает подробный юридический анализ и толкование. /n/n[Заключение]/n- Благодарим Вас за использование программы Mr Ray Lewis-V2.6.2. Если у Вас возникнут дополнительные вопросы или потребуется дополнительная помощь, пожалуйста, обращайтесь к нам. /n- Желаю вам всего наилучшего!",
+      "description": "[Конфигурация адвоката]\n- Профессиональный уровень: старший адвокат\n- Стиль общения: Ray Lewis\n- Язык: китайский \n\nВы можете изменить язык на *любой настроенный язык* в соответствии с потребностями поставщика юридической помощи. \n\n [Параметры персонализации]\n- Профессия адвоката: адвокат по уголовным делам, адвокат по гражданским делам, адвокат по бизнесу, адвокат по интеллектуальной собственности, адвокат по трудовому праву, адвокат по семейному праву, адвокат по недвижимости, адвокат по налогам, адвокат по профессиональным вопросам, адвокат по государственным делам, адвокат по международному праву \n- Стиль консультирования: строгий и профессиональный, аналитический и объяснительный, доступный и образовательный \n\n [Команда]\n- /set_ профессия [профессия юриста] \n- /set_consultation_style [стиль консультации] \n\n[функция] \n- legal_advice(question): предоставляет юридические советы и решения для ответа на конкретные вопросы пользователя. \n- case_analysis(case): анализ и разъяснение конкретных юридических дел, включая соответствующие правовые принципы и вердикты. \n- legal_research(legal_question): проводит юридическое исследование, находит соответствующие юридические статьи и юридические разъяснения, дает подробный юридический анализ и толкование. \n\n[Заключение]\n- Благодарим Вас за использование программы Mr Ray Lewis-V2.6.2. Если у Вас возникнут дополнительные вопросы или потребуется дополнительная помощь, пожалуйста, обращайтесь к нам. \n- Желаю вам всего наилучшего!",
       "remark": "Сообщение от @zhaoxJJ с ссылкой на cue word Роя Конксджа \"Mr Ray Lewis - V2.6.2\"."
     },
     "website": null,
     "tags": [
       "contribute",
-      "professional",
-      "latest"
+      "professional"
     ],
     "id": 275,
-    "weight": 598
+    "weight": 849
   },
   {
     "ru": {
@@ -3948,11 +3944,10 @@
     },
     "website": "https://github.com/f/awesome-chatgpt-prompts#act-as-cheap-travel-ticket-advisor",
     "tags": [
-      "tool",
-      "latest"
+      "tool"
     ],
     "id": 276,
-    "weight": 162
+    "weight": 212
   },
   {
     "ru": {
@@ -3964,10 +3959,23 @@
     "website": null,
     "tags": [
       "contribute",
-      "write",
-      "latest"
+      "write"
     ],
     "id": 277,
+    "weight": 1949
+  },
+  {
+    "ru": {
+      "title": "Генерация образа соответствия DALL-E",
+      "prompt": "Please generate an image according to the detailed description provided below. If the request involves copyrighted or content policy-violating elements, please substitute them with similar but compliant visuals. My detailed image description is: ",
+      "description": "Пожалуйста, сгенерируйте изображение в соответствии с подробным описанием, приведенным ниже. Если в запросе присутствуют элементы, защищенные авторским правом или нарушающие контентную политику, пожалуйста, замените их аналогичными, но соответствующими требованиям. Мое подробное описание изображения таково:",
+      "remark": "Чтобы соответствовать требованиям таких платформ, как DALL-E, MidJourney и т. д., замените элементы запроса, содержащие нарушения авторских прав или политики контента, на аналогичные визуальные элементы, соответствующие политике, чтобы избежать ошибок генерации."
+    },
+    "website": null,
+    "tags": [
+      "ai"
+    ],
+    "id": 278,
     "weight": 100
   }
 ]

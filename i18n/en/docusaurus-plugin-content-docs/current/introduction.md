@@ -30,10 +30,11 @@ Welcome to join our Discord community to exchange ideas and feedback.
 
 ## Browser Extension
 
-AiShort (ChatGPT Shortcut) browser extension supports Chrome and Edge with functionality consistent with the web version and is regularly updated. The extension can be automatically triggered as the ChatGPT page loads, or you can activate the extension window by pressing the `Alt+Shift+S` hotkey.
+AiShort (ChatGPT Shortcut) is a browser extension compatible with Chrome, Edge, Firefox, and other Chromium-based browsers. This extension not only offers the functionalities of the web version of ChatGPT Shortcut but also features unique elements like a sidebar and automatic window activation. It can automatically start with ChatGPT or custom pages and can also be manually activated using the `Alt+Shift+S` shortcut key. Below are the download channels:
 
-<a href="https://chrome.google.com/webstore/detail/chatgpt-shortcut/blcgeoojgdpodnmnhfpohphdhfncblnj">
-  <img src="https://img.newzone.top/2023-06-05-12-28-49.png?imageMogr2/format/webp"  alt="Chrome" valign="middle" /></a>
+- **Chrome**: [Chrome Web Store](https://chrome.google.com/webstore/detail/chatgpt-shortcut/blcgeoojgdpodnmnhfpohphdhfncblnj)
+- **Edge**: [Microsoft Edge Addons](https://microsoftedge.microsoft.com/addons/detail/chatgpt-shortcut/hnggpalhfjmdhhmgfjpmhlfilnbmjoin)
+- **Firefox**: Waiting
+- **GitHub**: [GitHub Release](https://github.com/rockbenben/ChatGPT-Shortcut/releases/latest)
 
-<a href="https://microsoftedge.microsoft.com/addons/detail/chatgpt-shortcut/hnggpalhfjmdhhmgfjpmhlfilnbmjoin">
-  <img src="https://img.newzone.top/2023-06-05-12-26-20.png?imageMogr2/format/webp" alt="Edge" valign="middle" /></a>
+Additionally, we offer a Tampermonkey script — [**ChatGPT Shortcut Anywhere**](https://greasyfork.org/scripts/482907-chatgpt-shortcut-anywhere), which allows users to customize matching domain names and use the AiShort sidebar on any website. However, due to script content injection limitations on ChatGPT pages, the sidebar function of the script is activated via a popup on ChatGPT pages.

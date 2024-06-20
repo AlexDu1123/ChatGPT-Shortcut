@@ -1,117 +1,98 @@
-import React, { useContext, useEffect, useState } from "react";
+import React, { useContext, useEffect, useState, useCallback } from "react";
 import clsx from "clsx";
 import Translate, { translate } from "@docusaurus/Translate";
 import copy from "copy-text-to-clipboard";
 import styles from "@site/src/pages/_components/ShowcaseCard/styles.module.css";
 import Link from "@docusaurus/Link";
-import {
-  getCommPrompts,
-  voteOnUserPrompt,
-  createFavorite,
-  updateFavorite,
-} from "@site/src/api";
+import { getCommPrompts, voteOnUserPrompt, createFavorite, updateFavorite } from "@site/src/api";
 import LoginComponent from "@site/src/pages/_components/user/login";
 import ShareButtons from "@site/src/pages/_components/ShareButtons";
-import {
-  AuthContext,
-  AuthProvider,
-} from "@site/src/pages/_components/AuthContext";
+import { AuthContext, AuthProvider } from "@site/src/pages/_components/AuthContext";
 import Layout from "@theme/Layout";
-import {
-  Modal,
-  Typography,
-  Tooltip,
-  message,
-  Pagination,
-  Dropdown,
-  Space,
-  Button,
-  Input,
-} from "antd";
-import {
-  UpOutlined,
-  DownOutlined,
-  HomeOutlined,
-  CopyOutlined,
-  HeartOutlined,
-  LoginOutlined,
-} from "@ant-design/icons";
+import { Modal, Typography, Tooltip, message, Pagination, Dropdown, Space, Button, Input } from "antd";
+import { UpOutlined, DownOutlined, HomeOutlined, CopyOutlined, HeartOutlined, LoginOutlined } from "@ant-design/icons";
 
 const { Search } = Input;
 const { Text } = Typography;
 
-function CommunityPrompts() {
-  const TITLE =
-    "AiShort Community Prompts - Share and find interesting prompts";
-  const DESCRIPTION = translate({
-    id: "description.communityPrompts",
-    message:
-      "探索由 AiShort 用户分享的创新提示词集合，这些独特且有趣的提示词可以激发你在创作短视频、小说、游戏等内容时的灵感。投票支持你最爱的提示，将它们复制并与你的朋友分享。让 AiShort 帮助你打开创造力的大门，一起创作出色的作品吧。",
-  });
+const placeholderData = Array.from({ length: 12 }, (_, index) => ({
+  id: `placeholder-${index}`,
+  title: "Loading...",
+  description:
+    "You are an expert in scientific writing,  please use the rules and principles stated in the books Writing Science: How to Write Papers That Get Cited and Proposals That Get FundedYou are an expert in scientific writing,  please use the rules and principles stated in the books Writing Science: How to Write Papers That Get Cited and Proposals That Get FundedYou are an expert in scientific writing,  please use the rules and principles stated in the books Writing Science",
+  remark: null,
+  notes: null,
+  owner: "Loading...",
+  upvotes: 0,
+  downvotes: 0,
+}));
+
+const TITLE = "AiShort Community Prompts - Share and find interesting prompts";
+const DESCRIPTION = translate({
+  id: "description.communityPrompts",
+  message:
+    "探索由 AiShort 用户分享的创新提示词集合，这些独特且有趣的提示词可以激发你在创作短视频、小说、游戏等内容时的灵感。投票支持你最爱的提示，将它们复制并与你的朋友分享。让 AiShort 帮助你打开创造力的大门，一起创作出色的作品吧。",
+});
+
+const CommunityPrompts = () => {
   const { userAuth } = useContext(AuthContext);
   const [open, setOpen] = useState(false);
-  const [userprompts, setUserPrompts] = useState([]);
+  const [userprompts, setUserPrompts] = useState(placeholderData);
   const [currentPage, setCurrentPage] = useState(1);
   const [total, setTotal] = useState(0);
   const [sortField, setSortField] = useState("id");
   const [sortOrder, setSortOrder] = useState("desc");
   const [copiedIndex, setCopiedIndex] = useState(null);
-  // 新增一个用于保存搜索关键字的 state
   const [searchTerm, setSearchTerm] = useState("");
   const [Shareurl, setShareUrl] = useState("");
-  useEffect(() => {
-    setShareUrl(window.location.href);
-  }, []);
+  const [votedUpPromptIds, setVotedUpPromptIds] = useState<number[]>([]);
+  const [votedDownPromptIds, setVotedDownPromptIds] = useState<number[]>([]);
 
   const pageSize = 12;
 
   useEffect(() => {
-    fetchData(currentPage, pageSize, sortField, sortOrder, searchTerm);
-  }, [currentPage, sortField, sortOrder, searchTerm]); // 添加 searchTerm 到依赖数组中
+    setShareUrl(window.location.href);
+  }, []);
 
-  const fetchData = async (
-    currentPage,
-    pageSize,
-    sortField,
-    sortOrder,
-    searchTerm
-  ) => {
-    const response = await getCommPrompts(
-      currentPage,
-      pageSize,
-      sortField,
-      sortOrder,
-      searchTerm
-    );
-    setUserPrompts(response.data.data);
-    setTotal(response.data.meta.pagination.total);
-  };
+  useEffect(() => {
+    fetchData(currentPage, pageSize, sortField, sortOrder, searchTerm);
+  }, [currentPage, sortField, sortOrder, searchTerm]);
+
+  const fetchData = useCallback(async (currentPage, pageSize, sortField, sortOrder, searchTerm) => {
+    try {
+      const result = await getCommPrompts(currentPage, pageSize, sortField, sortOrder, searchTerm);
+      if (result && result[0].length > 0) {
+        setUserPrompts(result[0]);
+        setTotal(result[1].data.meta.pagination.total);
+      } else {
+        console.log("No data returned from the server");
+      }
+    } catch (error) {
+      console.error("Failed to fetch community prompts:", error);
+    }
+  }, []);
 
   const onSearch = (value) => {
+    if (!userAuth) {
+      setOpen(true);
+      message.warning("Please log in to search.");
+      return;
+    }
     setSearchTerm(value);
-    setCurrentPage(1); // 重置页数到第一页
-    fetchData(currentPage, pageSize, sortField, sortOrder, value);
+    setCurrentPage(1);
   };
-  const [votedUpPromptIds, setVotedUpPromptIds] = useState([]);
-  const [votedDownPromptIds, setVotedDownPromptIds] = useState([]);
+
   const vote = async (promptId, action) => {
     try {
-      const response = await voteOnUserPrompt(promptId, action);
-      console.log(response);
-      if (response.data) {
-        message.success(`Successfully ${action}d!`);
-        if (action === "upvote") {
-          setVotedUpPromptIds([...votedUpPromptIds, promptId]);
-        } else if (action === "downvote") {
-          setVotedDownPromptIds([...votedDownPromptIds, promptId]);
-        }
-      } else {
-        message.error("Something went wrong with your vote.");
-      }
+      await voteOnUserPrompt(promptId, action);
+      message.success(`Successfully ${action}d!`);
+      const updateVotedIds = action === "upvote" ? setVotedUpPromptIds : setVotedDownPromptIds;
+      updateVotedIds((prevIds) => [...prevIds, promptId]);
     } catch (err) {
       message.error(`Error: ${err}`);
     }
   };
+
   const bookmark = async (promptId) => {
     try {
       let userLoves;
@@ -139,13 +120,14 @@ function CommunityPrompts() {
   const handleCopyClick = (index) => {
     const UserPrompt = userprompts[index];
     if (UserPrompt) {
-      copy(UserPrompt.attributes.description);
+      copy(UserPrompt.description);
       setCopiedIndex(index);
       setTimeout(() => {
         setCopiedIndex(null);
       }, 2000);
     }
   };
+
   const onChangePage = (page) => {
     setCurrentPage(page);
   };
@@ -188,124 +170,72 @@ function CommunityPrompts() {
     onClick: handleOrderClick,
   };
 
-  // 截取字符串的函数
-  const truncate = (str, num) => {
-    if (str.length <= num) {
-      return str;
-    }
-    return str.slice(0, num) + "...";
-  };
+  const truncate = (str, num) => (str.length <= num ? str : `${str.slice(0, num)}...`);
 
   return (
     <Layout title={TITLE} description={DESCRIPTION}>
-      <main
-        className='margin-vert--lg'
-        style={{ maxWidth: "1200px", margin: "auto" }}>
+      <main className="margin-vert--lg" style={{ maxWidth: "1200px", margin: "auto" }}>
         <Space wrap style={{ marginBottom: "20px" }}>
-          <Link to='/'>
-            <HomeOutlined /> <Translate id='link.home'>返回首页</Translate>
+          <Link to="/">
+            <HomeOutlined /> <Translate id="link.home">返回首页</Translate>
           </Link>
           {userAuth ? (
-            <Link to='/user/favorite'>
-              <HeartOutlined />{" "}
-              <Translate id='link.myfavorite'>我的收藏</Translate>
+            <Link to="/user/favorite">
+              <HeartOutlined /> <Translate id="link.myfavorite">我的收藏</Translate>
             </Link>
           ) : (
-            <Link onClick={() => setOpen(true)}>
-              <LoginOutlined />{" "}
-              <Translate id='button.login'>登录</Translate>
-            </Link>
+            <Button onClick={() => setOpen(true)}>
+              <LoginOutlined /> <Translate id="button.login">登录</Translate>
+            </Button>
           )}
-
           <Dropdown.Button icon={<DownOutlined />} menu={fieldMenuProps}>
-            {sortField === "id" ? (
-              <Translate id='field.id'>发布时间</Translate>
-            ) : (
-              <Translate id='field.upvoteDifference'>支持度</Translate>
-            )}
+            {sortField === "id" ? <Translate id="field.id">发布时间</Translate> : <Translate id="field.upvoteDifference">支持度</Translate>}
           </Dropdown.Button>
           <Dropdown.Button icon={<DownOutlined />} menu={orderMenuProps}>
-            {sortOrder === "asc" ? (
-              <Translate id='order.ascending'>升序</Translate>
-            ) : (
-              <Translate id='order.descending'>降序</Translate>
-            )}
+            {sortOrder === "asc" ? <Translate id="order.ascending">升序</Translate> : <Translate id="order.descending">降序</Translate>}
           </Dropdown.Button>
-          <Search
-            placeholder='Search'
-            onSearch={onSearch}
-            style={{ width: 200 }}
-            allowClear
-          />
+          <Search placeholder="Search" onSearch={onSearch} style={{ width: 200 }} allowClear />
         </Space>
-        <ul className='clean-list showcaseList_Cwj2'>
+        <ul className="clean-list showcaseList_Cwj2">
           {userprompts.map((UserPrompt, index) => (
-            <li key={UserPrompt.id} className='card shadow--md'>
-              <div
-                className={clsx("card__body")}
-                style={{
-                  display: "flex",
-                  flexDirection: "column",
-                  justifyContent: "space-between",
-                  height: "100%",
-                }}>
+            <li key={UserPrompt.id} className="card shadow--md">
+              <div className={clsx("card__body")} style={{ display: "flex", flexDirection: "column", justifyContent: "space-between", height: "100%" }}>
                 <div>
                   <div className={clsx(styles.showcaseCardHeader)}>
-                    <h4 className={styles.showcaseCardTitle}>
-                      <Link className={styles.showcaseCardLink}>
-                        {UserPrompt.attributes.title}
-                      </Link>
-                      <span
-                        style={{
-                          fontSize: "12px",
-                          color: "#999",
-                          marginLeft: "10px",
-                        }}>
-                        @{UserPrompt.owner}
+                    <div className={`${styles.showcaseCardTitle} ${styles.shortEllipsis}`}>
+                      <span className={styles.showcaseCardLink} style={{ color: "var(--ifm-color-primary)" }}>
+                        {UserPrompt.title}
                       </span>
-                    </h4>
+                      <span style={{ fontSize: "12px", color: "#999", marginLeft: "10px" }}>@{UserPrompt.owner}</span>
+                    </div>
                   </div>
-                  {UserPrompt.attributes.remark && (
-                    <p className={styles.showcaseCardBody}>
-                      👉 {UserPrompt.attributes.remark}
-                    </p>
-                  )}
+                  {UserPrompt.remark && <p className={styles.showcaseCardBody}>👉 {UserPrompt.remark}</p>}
                   <p className={styles.showcaseCardBody}>
-                    {UserPrompt.attributes.notes ? (
-                      <Tooltip
-                        placement='bottom'
-                        title={truncate(UserPrompt.attributes.notes, 300)}
-                        overlayStyle={{ maxWidth: 450 }}>
-                        {UserPrompt.attributes.description}
+                    {UserPrompt.notes ? (
+                      <Tooltip placement="bottom" title={truncate(UserPrompt.notes, 300)} overlayStyle={{ maxWidth: 450 }}>
+                        {UserPrompt.description}
                       </Tooltip>
                     ) : (
-                      UserPrompt.attributes.description
+                      UserPrompt.description
                     )}
                   </p>
                 </div>
-                <div className={clsx(styles.showcaseCardBodyActions)}>
+                <div style={{ display: "flex", justifyContent: "space-between" }}>
                   <Button.Group>
-                    <Tooltip
-                      title={translate({
-                        id: "copy.button",
-                        message: "复制",
-                      })}>
-                      <Button
-                        type='default'
-                        onClick={() => handleCopyClick(index)}>
+                    <Tooltip title={translate({ id: "theme.CodeBlock.copy", message: "复制" })}>
+                      <Button type="default" onClick={() => handleCopyClick(index)}>
                         <CopyOutlined />
-                        {copiedIndex === index && (
-                          <Translate id='theme.CodeBlock.copied'>已复制</Translate>
-                        )}
+                        {copiedIndex === index && <Translate id="theme.CodeBlock.copied">已复制</Translate>}
                       </Button>
                     </Tooltip>
-                    <Tooltip
-                      title={translate({
-                        message: "收藏",
-                      })}>
+                    <Tooltip title={translate({ message: "收藏" })}>
                       <Button
-                        type='default'
+                        type="default"
                         onClick={() => {
+                          if (!userAuth) {
+                            message.error("Please log in to vote and bookmark.");
+                            return;
+                          }
                           vote(UserPrompt.id, "upvote");
                           bookmark(UserPrompt.id);
                         }}>
@@ -314,32 +244,32 @@ function CommunityPrompts() {
                     </Tooltip>
                   </Button.Group>
                   <Button.Group>
-                    <Tooltip
-                      title={translate({
-                        id: "upvote",
-                        message: "赞",
-                      })}>
+                    <Tooltip title={translate({ id: "upvote", message: "赞" })}>
                       <Button
-                        type='default'
-                        onClick={() => vote(UserPrompt.id, "upvote")}>
+                        type="default"
+                        onClick={() => {
+                          if (!userAuth) {
+                            message.error("Please log in to vote and bookmark.");
+                            return;
+                          }
+                          vote(UserPrompt.id, "upvote");
+                        }}>
                         <UpOutlined />
-                        {votedUpPromptIds.includes(UserPrompt.id)
-                          ? (UserPrompt.upvotes || 0) + 1
-                          : UserPrompt.upvotes || 0}
+                        {votedUpPromptIds.includes(UserPrompt.id) ? (UserPrompt.upvotes || 0) + 1 : UserPrompt.upvotes || 0}
                       </Button>
                     </Tooltip>
-                    <Tooltip
-                      title={translate({
-                        id: "downvote",
-                        message: "踩",
-                      })}>
+                    <Tooltip title={translate({ id: "downvote", message: "踩" })}>
                       <Button
-                        type='default'
-                        onClick={() => vote(UserPrompt.id, "downvote")}>
+                        type="default"
+                        onClick={() => {
+                          if (!userAuth) {
+                            message.error("Please log in to vote and bookmark.");
+                            return;
+                          }
+                          vote(UserPrompt.id, "downvote");
+                        }}>
                         <DownOutlined />
-                        {votedDownPromptIds.includes(UserPrompt.id)
-                          ? (UserPrompt.downvotes || 0) + 1
-                          : UserPrompt.downvotes || 0}
+                        {votedDownPromptIds.includes(UserPrompt.id) ? (UserPrompt.downvotes || 0) + 1 : UserPrompt.downvotes || 0}
                       </Button>
                     </Tooltip>
                   </Button.Group>
@@ -349,30 +279,16 @@ function CommunityPrompts() {
           ))}
         </ul>
         <div style={{ display: "flex", justifyContent: "center" }}>
-          <Pagination
-            current={currentPage}
-            total={total}
-            showQuickJumper
-            showSizeChanger={false}
-            onChange={onChangePage}
-          />
+          <Pagination current={currentPage} pageSize={pageSize} total={total} showQuickJumper showSizeChanger={false} onChange={onChangePage} />
         </div>
-        <div
-          style={{
-            display: "flex",
-            justifyContent: "center",
-            marginTop: "10px",
-          }}>
-          <Text
-            type='secondary'
-            style={{ color: "var(--ifm-color-secondary)", fontSize: "10px" }}>
+        <div style={{ display: "flex", justifyContent: "center", marginTop: "10px" }}>
+          <Text type="secondary" style={{ color: "var(--ifm-color-secondary)", fontSize: "10px" }}>
             {translate({
               message:
                 "本页面展示的提示词均由网友分享和上传，我们无法保证内容的准确性、质量或完整性，同时也不对因内容引发的任何法律责任承担责任。如果发现有侵权或者其他问题，可以联系我们进行处理。我们将在收到通知后尽快处理。",
             })}
           </Text>
         </div>
-
         <Modal open={open} footer={null} onCancel={() => setOpen(false)}>
           <LoginComponent />
         </Modal>
@@ -380,7 +296,7 @@ function CommunityPrompts() {
       </main>
     </Layout>
   );
-}
+};
 
 export default function WrappedCommunityPrompts() {
   return (

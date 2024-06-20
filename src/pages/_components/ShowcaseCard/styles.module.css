@@ -38,16 +38,6 @@
   background-color: rgba(0, 0, 0, 0.5); /* Show scrollbar when hovering over the element */
 }
 
-.showcaseCardBodyActions {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.showcaseCardBodyActions .button {
-  margin-right: 5px;
-}
-
 .showcaseCardImage {
   overflow: hidden;
   height: 150px;
@@ -60,7 +50,16 @@
   margin-bottom: 12px;
 }
 
+.shortEllipsisMy {
+  max-width: 85%;
+}
+.shortEllipsis {
+  max-width: 100%;
+}
+
 .showcaseCardTitle {
+  font-size: 1em;
+  font-weight: bold;
   margin-bottom: 0;
   flex: 1 1 auto;
 }

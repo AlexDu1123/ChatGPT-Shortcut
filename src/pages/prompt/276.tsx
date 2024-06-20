@@ -82,11 +82,10 @@ const prompt = {
   },
   "website": "https://github.com/f/awesome-chatgpt-prompts#act-as-cheap-travel-ticket-advisor",
   "tags": [
-    "tool",
-    "latest"
+    "tool"
   ],
   "id": 276,
-  "weight": 162
+  "weight": 212
 };
 
 function PromptDetail() {

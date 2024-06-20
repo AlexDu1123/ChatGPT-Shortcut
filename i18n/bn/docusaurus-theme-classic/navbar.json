@@ -31,14 +31,6 @@
     "message": "টুল সংগ্রহ",
     "description": "Navbar item with label 工具收藏"
   },
-  "item.label.Chrome 扩展": {
-    "message": "ক্রোম এক্সটেনশন",
-    "description": "Navbar item with label Chrome 扩展"
-  },
-  "item.label.Edge 扩展": {
-    "message": "প্রান্ত এক্সটেনশন",
-    "description": "Navbar item with label Edge 扩展"
-  },
   "item.label.Find on Product Hunt": {
     "message": "পণ্য হান্ট এ খুঁজুন",
     "description": "Navbar item with label Find on Product Hunt"
@@ -51,9 +43,9 @@
     "message": "📝 মতামত জমা দিন",
     "description": "Navbar item with label 📝 提交反馈"
   },
-  "item.label.💬 微信交流": {
+  "item.label.💬 加入 QQ 群": {
     "message": "💬 আমাদের সাথে একটি WeChat চ্যাট করুন",
-    "description": "Navbar item with label 💬 微信交流"
+    "description": "Navbar item with label 💬 加入 QQ 群"
   },
   "item.label.📧 发送邮件": {
     "message": "📧 ইমেইল পাঠান",
@@ -62,5 +54,9 @@
   "item.label.📺 加入 Discord": {
     "message": "📺 আমাদের ডিসকর্ডে যোগ দিন",
     "description": "Navbar item with label 📺 加入 Discord"
+  },
+  "item.label.脚本扩展": {
+    "message": "এক্সটেনশন",
+    "description": "Navbar item with label 脚本扩展"
   }
 }

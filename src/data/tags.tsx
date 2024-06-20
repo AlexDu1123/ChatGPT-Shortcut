@@ -1,5 +1,5 @@
 import { translate } from "@docusaurus/Translate";
-import { User, TagType, Tag } from './User.d';
+import { User, TagType, Tag } from "./User.d";
 
 export const Tags: { [type in TagType]: Tag } = {
   favorite: {
@@ -32,8 +32,7 @@ export const Tags: { [type in TagType]: Tag } = {
   code: {
     label: translate({ message: "IT/编程" }),
     description: translate({
-      message:
-        "虽然说是编程，但 ChatGPT 是按照要求给出编程步骤的建议或简单的样例代码，这些代码只能作为测试，仍然需要程序员来修改。",
+      message: "虽然说是编程，但 ChatGPT 是按照要求给出编程步骤的建议或简单的样例代码，这些代码只能作为测试，仍然需要程序员来修改。",
       id: "showcase.tag.code.description",
     }),
     color: "#8c2f00",
@@ -184,7 +183,7 @@ export const Tags: { [type in TagType]: Tag } = {
   },
 
   company: {
-    label: translate({ message: "企业职位" }),
+    label: translate({ message: "企业职能" }),
     description: translate({
       message: "一般企业内的岗位",
       id: "showcase.tag.company.description",
@@ -244,15 +243,6 @@ export const Tags: { [type in TagType]: Tag } = {
       id: "showcase.tag.contribute.description",
     }),
     color: "#cecd21",
-  },
-
-  latest: {
-    label: translate({ message: "Latest" }),
-    description: translate({
-      message: "近期新增的提示词",
-      id: "showcase.tag.latest.description",
-    }),
-    color: "#666b63",
   },
 };
 

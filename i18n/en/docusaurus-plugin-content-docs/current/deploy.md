@@ -2,7 +2,7 @@
 
 ## Deploy With Vercel
 
-[![Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Frockbenben%2FChatGPT-Shortcut%2Ftree%2Fgh-pages)
+[![Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Frockbenben%2FChatGPT-Shortcut%2Ftree%2Fmain)
 
 ## Installation
 
@@ -15,6 +15,21 @@ yarn start
 
 # Build: This command generates static content into the `build` directory
 yarn build
+
+# Update the `defaultLocale` in the `docusaurus.config.js` file, then perform a build for the desired language.
+yarn build --locale zh
+yarn build --locale en
+yarn build --locale ja
+yarn build --locale ko
+yarn build --locale es
+yarn build --locale fr
+yarn build --locale de
+yarn build --locale it
+yarn build --locale ru
+yarn build --locale pt
+yarn build --locale hi
+yarn build --locale ar
+yarn build --locale bn
 ```
 
 ## Synchronized Updates
