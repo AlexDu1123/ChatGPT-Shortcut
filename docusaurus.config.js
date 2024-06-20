@@ -147,6 +147,11 @@ const config = {
               },
             ],
           },
+          {
+            href: "https://www.aialex.cn/QR-code",
+            label: "🤗 交流群",
+            position: "left",
+          },
           { type: "localeDropdown", position: "right" },
           {
             href: "https://www.weibo.com/u/1794009892",
