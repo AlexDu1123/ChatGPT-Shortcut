@@ -34,7 +34,21 @@ const config = {
   // may want to replace "zh" with "en".
   i18n: {
     defaultLocale: "zh",
-    locales: ["en", "zh", "ja", "ko", "es", "fr", "de", "it", "ru", "pt", "hi", "ar", "bn"],
+    locales: [
+      "en",
+      "zh",
+      "ja",
+      "ko",
+      "es",
+      "fr",
+      "de",
+      "it",
+      "ru",
+      "pt",
+      "hi",
+      "ar",
+      "bn"
+    ],
     localeConfigs: {
       ar: {
         direction: "rtl",
@@ -110,7 +124,6 @@ const config = {
             label: "🕹️ 账号",
             position: "left",
           },
-          
           {
             type: "dropdown",
             label: "🏛️ 课程",
@@ -150,65 +163,6 @@ const config = {
             position: "right",
             className: "header-xiaohongshu-link",
           },
-
-          /*
-          {
-            type: "dropdown",
-            label: "🛠️ 应用工具",
-            position: "left",
-            items: [
-              {
-                label: "脚本扩展",
-                to: "/docs/guides/extension",
-              },
-              {
-                label: "IMGPrompt",
-                href: "https://prompt.newzone.top/",
-              },
-              {
-                label: "文字处理",
-                href: "https://tools.newzone.top/json-translate",
-              },
-              {
-                label: "工具收藏",
-                href: "https://nav.newzone.top",
-              },
-              {
-                label: "Find on Product Hunt",
-                href: "https://www.producthunt.com/posts/chatgpt-shortcut?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-chatgpt&#0045;shortcut",
-              },
-            ],
-          },
-          {
-            type: "dropdown",
-            label: "反馈建议",
-            position: "left",
-            items: [
-            {
-                label: "📝 提交反馈",
-                to: "/feedback",
-              },
-              {
-                label: "💬 加入 QQ 群",
-                href: "https://img.newzone.top/qq736094782.jpg?imageMogr2/format/webp",
-              },
-              {
-                label: "📺 加入 Discord",
-                href: "https://discord.gg/PZTQfJ4GjX",
-              },
-            ],
-          },
-          { type: "localeDropdown", position: "right" },
-          {
-            href: "https://qm.qq.com/q/sHgB9eqd6E",
-            position: "right",
-            className: "header-qq-link",
-          },
-          {
-            href: "https://discord.gg/PZTQfJ4GjX",
-            position: "right",
-            className: "header-discord-link",
-          },
         ],
       },
       footer: {
@@ -219,31 +173,7 @@ const config = {
         theme: prismThemes.github,
         darkTheme: prismThemes.dracula,
       },
-
-      /* announcementBar: {
-        id: 'announcement_bar',
-        content: getAnnouncement(),
-        backgroundColor: '#fafbfc',
-        textColor: '#091E42',
-        isCloseable: false,
-      }, */
     }),
 };
 
 export default config;
-
-/* process.env.DOCUSAURUS_CURRENT_LOCALE ??= "zh-Hans";
-function getNavbar() {
-  switch (process.env.DOCUSAURUS_CURRENT_LOCALE) {
-    case "en":
-      return enNavbar;
-    default:
-      return zhNavbar;
-  }
-} */
-/* function getAnnouncement() {
-  switch(process.env.DOCUSAURUS_CURRENT_LOCALE) {
-    case "en": return 'Announcement_en';
-    default: return 'Announcement_cn';
-  }
-} */
